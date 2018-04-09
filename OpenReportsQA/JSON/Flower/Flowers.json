@@ -1,0 +1,366 @@
+﻿{
+  "data": [
+    {
+      "name": "Fire In The Hole - Flowers",
+      "ucpc": "9XVU7QMCWC2WJVPRZFEA00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7QMCWC2WJVPRZFEA00000",
+      "qr": "https://www.cannabisreports.com/flower-reports/qr-code/unknown-producer/unknown-breeder/fire-in-the-hole/flowers.png",
+      "barcode": "https://www.cannabisreports.com/flower-reports/barcode/unknown-producer/unknown-breeder/fire-in-the-hole/flowers.png",
+      "url": "https://www.cannabisreports.com/flower-reports/unknown-producer/unknown-breeder/fire-in-the-hole/flowers",
+      "image": "https://www.cannabisreports.com/images/strains/no_image.png",
+      "producer": {
+        "name": "Unknown Producer",
+        "ucpc": "00000000002WJVP0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000002WJVP0000000000"
+      },
+      "type": "flowers",
+      "strain": {
+        "name": "Fire In The Hole",
+        "ucpc": "9XVU7QMCWC000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU7QMCWC000000000000000"
+      },
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7QMCWC2WJVPRZFEA00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2018-02-07 00:00:06",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2018-02-07 00:02:21",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Colorado Cough - Flowers",
+      "ucpc": "9XVU7ZADW22WJVP6FZVC00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7ZADW22WJVP6FZVC00000",
+      "qr": "https://www.cannabisreports.com/flower-reports/qr-code/unknown-producer/unknown-breeder/colorado-cough/flowers.png",
+      "barcode": "https://www.cannabisreports.com/flower-reports/barcode/unknown-producer/unknown-breeder/colorado-cough/flowers.png",
+      "url": "https://www.cannabisreports.com/flower-reports/unknown-producer/unknown-breeder/colorado-cough/flowers",
+      "image": "https://www.cannabisreports.com/images/strains/no_image.png",
+      "producer": {
+        "name": "Unknown Producer",
+        "ucpc": "00000000002WJVP0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000002WJVP0000000000"
+      },
+      "type": "flowers",
+      "strain": {
+        "name": "Colorado Cough",
+        "ucpc": "9XVU7ZADW2000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU7ZADW2000000000000000"
+      },
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7ZADW22WJVP6FZVC00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2018-02-04 18:52:09",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2018-02-04 18:59:01",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "White Russian F2 - Flowers",
+      "ucpc": "9XVU7972J42WJVPFPVDU00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7972J42WJVPFPVDU00000",
+      "qr": "https://www.cannabisreports.com/flower-reports/qr-code/unknown-producer/unknown-breeder/white-russian-f2/flowers.png",
+      "barcode": "https://www.cannabisreports.com/flower-reports/barcode/unknown-producer/unknown-breeder/white-russian-f2/flowers.png",
+      "url": "https://www.cannabisreports.com/flower-reports/unknown-producer/unknown-breeder/white-russian-f2/flowers",
+      "image": "https://www.cannabisreports.com/images/strains/no_image.png",
+      "producer": {
+        "name": "Unknown Producer",
+        "ucpc": "00000000002WJVP0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000002WJVP0000000000"
+      },
+      "type": "flowers",
+      "strain": {
+        "name": "White Russian F2",
+        "ucpc": "9XVU7972J4000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU7972J4000000000000000"
+      },
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7972J42WJVPFPVDU00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2018-02-02 17:27:29",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2018-02-02 18:02:15",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Ultimate Moonshine - Flowers",
+      "ucpc": "9XVU7NUVM42WJVPHKJYA00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7NUVM42WJVPHKJYA00000",
+      "qr": "https://www.cannabisreports.com/flower-reports/qr-code/unknown-producer/unknown-breeder/ultimate-moonshine/flowers.png",
+      "barcode": "https://www.cannabisreports.com/flower-reports/barcode/unknown-producer/unknown-breeder/ultimate-moonshine/flowers.png",
+      "url": "https://www.cannabisreports.com/flower-reports/unknown-producer/unknown-breeder/ultimate-moonshine/flowers",
+      "image": "https://www.cannabisreports.com/images/strains/no_image.png",
+      "producer": {
+        "name": "Unknown Producer",
+        "ucpc": "00000000002WJVP0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000002WJVP0000000000"
+      },
+      "type": "flowers",
+      "strain": {
+        "name": "Ultimate Moonshine",
+        "ucpc": "9XVU7NUVM4000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU7NUVM4000000000000000"
+      },
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7NUVM42WJVPHKJYA00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2018-01-19 21:31:19",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2018-01-19 22:02:14",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Paint Haze - Flowers",
+      "ucpc": "9XVU7QY6KA2WJVPPK3K700000",
+      "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7QY6KA2WJVPPK3K700000",
+      "qr": "https://www.cannabisreports.com/flower-reports/qr-code/unknown-producer/unknown-breeder/paint-haze/flowers.png",
+      "barcode": "https://www.cannabisreports.com/flower-reports/barcode/unknown-producer/unknown-breeder/paint-haze/flowers.png",
+      "url": "https://www.cannabisreports.com/flower-reports/unknown-producer/unknown-breeder/paint-haze/flowers",
+      "image": "https://www.cannabisreports.com/images/strains/no_image.png",
+      "producer": {
+        "name": "Unknown Producer",
+        "ucpc": "00000000002WJVP0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000002WJVP0000000000"
+      },
+      "type": "flowers",
+      "strain": {
+        "name": "Paint Haze",
+        "ucpc": "9XVU7QY6KA000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU7QY6KA000000000000000"
+      },
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7QY6KA2WJVPPK3K700000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2018-01-19 15:10:36",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2018-01-19 15:13:01",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Pure Mighty Mite - Flowers",
+      "ucpc": "9XVU79FP4F2WJVPGVE3D00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU79FP4F2WJVPGVE3D00000",
+      "qr": "https://www.cannabisreports.com/flower-reports/qr-code/unknown-producer/unknown-breeder/pure-mighty-mite/flowers.png",
+      "barcode": "https://www.cannabisreports.com/flower-reports/barcode/unknown-producer/unknown-breeder/pure-mighty-mite/flowers.png",
+      "url": "https://www.cannabisreports.com/flower-reports/unknown-producer/unknown-breeder/pure-mighty-mite/flowers",
+      "image": "https://www.cannabisreports.com/images/strains/no_image.png",
+      "producer": {
+        "name": "Unknown Producer",
+        "ucpc": "00000000002WJVP0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000002WJVP0000000000"
+      },
+      "type": "flowers",
+      "strain": {
+        "name": "Pure Mighty Mite",
+        "ucpc": "9XVU79FP4F000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU79FP4F000000000000000"
+      },
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU79FP4F2WJVPGVE3D00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2018-01-18 18:07:00",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2018-01-18 18:51:53",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Blue39 - Flowers",
+      "ucpc": "9XVU7VGJWP2WJVPQQZZY00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7VGJWP2WJVPQQZZY00000",
+      "qr": "https://www.cannabisreports.com/flower-reports/qr-code/unknown-producer/unknown-breeder/blue39/flowers.png",
+      "barcode": "https://www.cannabisreports.com/flower-reports/barcode/unknown-producer/unknown-breeder/blue39/flowers.png",
+      "url": "https://www.cannabisreports.com/flower-reports/unknown-producer/unknown-breeder/blue39/flowers",
+      "image": "https://www.cannabisreports.com/images/strains/no_image.png",
+      "producer": {
+        "name": "Unknown Producer",
+        "ucpc": "00000000002WJVP0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000002WJVP0000000000"
+      },
+      "type": "flowers",
+      "strain": {
+        "name": "Blue39",
+        "ucpc": "9XVU7VGJWP000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU7VGJWP000000000000000"
+      },
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7VGJWP2WJVPQQZZY00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2018-01-14 18:24:35",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2018-01-14 18:52:28",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Sour Diesel V3 - Flowers",
+      "ucpc": "9XVU79TT2Y2WJVPJAJTZ00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU79TT2Y2WJVPJAJTZ00000",
+      "qr": "https://www.cannabisreports.com/flower-reports/qr-code/unknown-producer/unknown-breeder/sour-diesel-v3/flowers.png",
+      "barcode": "https://www.cannabisreports.com/flower-reports/barcode/unknown-producer/unknown-breeder/sour-diesel-v3/flowers.png",
+      "url": "https://www.cannabisreports.com/flower-reports/unknown-producer/unknown-breeder/sour-diesel-v3/flowers",
+      "image": "https://www.cannabisreports.com/images/strains/no_image.png",
+      "producer": {
+        "name": "Unknown Producer",
+        "ucpc": "00000000002WJVP0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000002WJVP0000000000"
+      },
+      "type": "flowers",
+      "strain": {
+        "name": "Sour Diesel V3",
+        "ucpc": "9XVU79TT2Y000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU79TT2Y000000000000000"
+      },
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU79TT2Y2WJVPJAJTZ00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-12-12 20:50:48",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-12-12 21:00:46",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Apollo's Mist - Flowers",
+      "ucpc": "9XVU7V7XY72WJVP94JZH00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7V7XY72WJVP94JZH00000",
+      "qr": "https://www.cannabisreports.com/flower-reports/qr-code/unknown-producer/unknown-breeder/apollos-mist/flowers.png",
+      "barcode": "https://www.cannabisreports.com/flower-reports/barcode/unknown-producer/unknown-breeder/apollos-mist/flowers.png",
+      "url": "https://www.cannabisreports.com/flower-reports/unknown-producer/unknown-breeder/apollos-mist/flowers",
+      "image": "https://www.cannabisreports.com/images/strains/no_image.png",
+      "producer": {
+        "name": "Unknown Producer",
+        "ucpc": "00000000002WJVP0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000002WJVP0000000000"
+      },
+      "type": "flowers",
+      "strain": {
+        "name": "Apollo's Mist",
+        "ucpc": "9XVU7V7XY7000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU7V7XY7000000000000000"
+      },
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7V7XY72WJVP94JZH00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-12-02 16:09:01",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-12-02 16:40:58",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "West Seattle - Flowers",
+      "ucpc": "9XVU7GNXMZ2WJVPD4QQG00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7GNXMZ2WJVPD4QQG00000",
+      "qr": "https://www.cannabisreports.com/flower-reports/qr-code/unknown-producer/unknown-breeder/west-seattle/flowers.png",
+      "barcode": "https://www.cannabisreports.com/flower-reports/barcode/unknown-producer/unknown-breeder/west-seattle/flowers.png",
+      "url": "https://www.cannabisreports.com/flower-reports/unknown-producer/unknown-breeder/west-seattle/flowers",
+      "image": "https://www.cannabisreports.com/images/strains/no_image.png",
+      "producer": {
+        "name": "Unknown Producer",
+        "ucpc": "00000000002WJVP0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000002WJVP0000000000"
+      },
+      "type": "flowers",
+      "strain": {
+        "name": "West Seattle",
+        "ucpc": "9XVU7GNXMZ000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU7GNXMZ000000000000000"
+      },
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7GNXMZ2WJVPD4QQG00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-11-01 11:31:59",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-11-01 11:57:01",
+        "timezone": "UTC"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "total": 13050,
+      "count": 10,
+      "per_page": 10,
+      "current_page": 1,
+      "total_pages": 1305,
+      "links": {
+        "next": "https://www.cannabisreports.com/api/v1.0/flowers?page=2"
+      }
+    }
+  }
+}

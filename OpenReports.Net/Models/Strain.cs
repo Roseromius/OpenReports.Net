@@ -26,10 +26,10 @@ namespace OpenReports.Net
         public string Image { get; private set; }
 
         [JsonProperty(PropertyName = "seedCompany")]
-        public SeedCompanyLink SeedCompany { get; private set; }
+        public ObjectLink SeedCompany { get; private set; }
 
         [JsonProperty(PropertyName = "genetics")]
-        public GeneticsLink Genetics { get; private set; }
+        public ObjectLink Genetics { get; private set; }
 
         [JsonProperty(PropertyName = "lineage")]
         public Lineage Lineage { get; private set; }
@@ -38,13 +38,13 @@ namespace OpenReports.Net
         public Children Children { get; private set; }
 
         [JsonProperty(PropertyName = "reviews")]
-        public ReviewsLink Reviews { get; private set; }
+        public ObjectsLink Reviews { get; private set; }
 
         [JsonProperty(PropertyName = "createdAt")]
-        public CreatedAt CreatedAt { get; private set; }
+        public TimeStamp CreatedAt { get; private set; }
 
         [JsonProperty(PropertyName = "updatedAt")]
-        public UpdatedAt UpdatedAt { get; private set; }
+        public TimeStamp UpdatedAt { get; private set; }
 
         public bool IsValid()
         {

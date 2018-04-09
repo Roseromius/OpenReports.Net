@@ -44,14 +44,19 @@ namespace OpenReports.Net
         public decimal? PriceOunce { get; set; }
 
         [JsonProperty(PropertyName = "createdAt")]
-        public CreatedAt CreatedAt { get; set; }
+        public TimeStamp CreatedAt { get; set; }
 
         [JsonProperty(PropertyName = "updatedAt")]
-        public UpdatedAt UpdatedAt { get; set; }
+        public TimeStamp UpdatedAt { get; set; }
 
         public bool IsValid()
         {
-            throw new NotImplementedException();
+            if (Name == null) { return false; }
+            if (UCPC == null) { return false; }
+            if (CreatedAt == null) { return false; }
+            if (UpdatedAt == null) { return false; }
+
+            return true;
         }
     }
 }

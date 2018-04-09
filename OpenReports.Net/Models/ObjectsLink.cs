@@ -5,25 +5,17 @@ using System.Text;
 
 namespace OpenReports.Net
 {
-    public class GeneticsLink: IModel
+    public class ObjectsLink
     {
-        [JsonProperty(PropertyName = "names")]
-        public string Names { get; private set; }
-
-        [JsonProperty(PropertyName = "ucpc")]
-        public string UCPC { get; private set; }
+        [JsonProperty(PropertyName = "count")]
+        public int Count { get; private set; }
 
         [JsonProperty(PropertyName = "link")]
         public string Link { get; private set; }
 
         public bool IsValid()
         {
-            if (String.IsNullOrEmpty(Names))
-            {
-                return false;
-            }
-
-            if (String.IsNullOrEmpty(UCPC))
+            if (Count < 0)
             {
                 return false;
             }

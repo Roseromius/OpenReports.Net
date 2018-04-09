@@ -5,10 +5,13 @@ using System.Text;
 
 namespace OpenReports.Net
 {
-    public class SeedCompanyLink: IModel
+    public class ObjectLink
     {
         [JsonProperty(PropertyName = "name")]
         public string Name { get; private set; }
+
+        [JsonProperty(PropertyName = "names")]//INSTEAD OF A CONVERTER
+        private string Names { set { Name = value; } }
 
         [JsonProperty(PropertyName = "ucpc")]
         public string UCPC { get; private set; }

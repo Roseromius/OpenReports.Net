@@ -5,7 +5,7 @@ using System.Text;
 
 namespace OpenReports.Net
 {
-    public class UpdatedAt: IModel
+    public class TimeStamp: IModel
     {
         [JsonProperty(PropertyName = "dateTime")]
         public string Datetime { get; private set; }

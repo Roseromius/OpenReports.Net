@@ -47,10 +47,10 @@ namespace OpenReports.Net
         public int? DryMouth { get; private set; }
 
         [JsonProperty(PropertyName = "createdAt")]
-        public CreatedAt CreatedAt { get; private set; }
+        public TimeStamp CreatedAt { get; private set; }
 
         [JsonProperty(PropertyName = "updatedAt")]
-        public UpdatedAt UpdatedAt { get; private set; }
+        public TimeStamp UpdatedAt { get; private set; }
 
         public bool IsValid()
         {

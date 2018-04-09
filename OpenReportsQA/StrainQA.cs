@@ -83,7 +83,7 @@ namespace OpenReportsQA
             strain = (Strain)StrainController.GetStrain("VUJCJ4TYMG000000000000000");
 
             //ASSERT
-            Assert.IsNotNull(strain);;
+            Assert.IsNotNull(strain);
             Assert.IsTrue(strain.IsValid());
             Assert.IsTrue(strain.Name == "Jack Herer");
 
@@ -105,6 +105,10 @@ namespace OpenReportsQA
             //ASSERT
             Assert.IsNotNull(strains);
             Assert.IsTrue(strains.Count > 0);
+            foreach (Strain strain in strains)
+            {
+                Assert.IsTrue(strain.Name.Contains("Blue"));
+            }
 
             //OUTPUT
             foreach (Strain strain in strains)
@@ -140,7 +144,7 @@ namespace OpenReportsQA
             var reviews = new List<Review>();
 
             //ACT
-            reviews = (List<Review>)StrainController.GetStrainReviews("VUJCJ4TYMG000000000000000",2);
+            reviews = (List<Review>)StrainController.GetStrainReviews("VUJCJ4TYMG000000000000000",1);
 
             //ASSERT
             Assert.IsNotNull(reviews);
@@ -149,6 +153,8 @@ namespace OpenReportsQA
             {
                 Assert.IsTrue(review.IsValid());
             }
+
+            Assert.IsTrue(reviews.Count > 0);
 
             //OUTPUT
             foreach (Review review in reviews)
@@ -253,6 +259,11 @@ namespace OpenReportsQA
             //ASSERT
             Assert.IsNotNull(menuItemSummaries);
             Assert.IsTrue(menuItemSummaries.Count > 0);
+
+            foreach (MenuItemSummary summary in menuItemSummaries)
+            {
+                Assert.IsTrue(summary.IsValid());
+            }
 
             //OUTPUT
             foreach (MenuItemSummary menuItemSummary in menuItemSummaries)

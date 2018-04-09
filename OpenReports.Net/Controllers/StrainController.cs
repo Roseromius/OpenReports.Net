@@ -10,197 +10,132 @@ namespace OpenReports.Net
     {
         public static IEnumerable<Strain> GetStrains(int pageNumber = 0, SortOption sortingOption = SortOption.Unassigned)
         {
-            string pageArguement = "page=" + pageNumber;
-            string sortArguement = "sort=" + UrlGenerator.SortEnumToString(sortingOption);
-            string url = "https://www.cannabisreports.com/api/v1.0/strains";
-            var strains = new List<Strain>();
+            var urlGenerator = new UrlGenerator();
 
-            if(sortingOption != SortOption.Unassigned)
-            {
-                if (pageNumber > 0)
-                {
-                    url = url + pageArguement + "&" + sortArguement;
-                }
-                else
-                {
-                    url = url + sortArguement;
-                }
-            }
-            else if (pageNumber > 0)
-            {
-                url = url + pageArguement;
-            }
+            urlGenerator.GenerateCannabisReportsUrl(PrimaryObjectType.Strain);
 
-            string json = DataRequester.GetData(url);
+            urlGenerator.AddQueryParameters(pageNumber, sortingOption);//ADD SORTING/PAGE OPTIONS
 
-            JObject rawData = JObject.Parse(json);
-
-            foreach (JToken strain in rawData["data"].Children())
-            {
-                Strain tempStrain = strain.ToObject<Strain>();
-                strains.Add(tempStrain);
-            }
+            IEnumerable<Strain> strains = DataRequester.GetObjects<Strain>(urlGenerator.URL);
 
             return strains;
         }
 
         public static Strain GetStrain(string ucpc)
         {
-            string url = "https://www.cannabisreports.com/api/v1.0/strains/" + ucpc;
+            var urlGenerator = new UrlGenerator();
+            var ucpcObject = new UCPC(ucpc, PrimaryObjectType.Strain);
 
-            string json = DataRequester.GetData(url);
+            urlGenerator.GenerateCannabisReportsUrl(ucpcObject);
 
-            JObject rawData = JObject.Parse(json);
-
-            Strain strain = rawData["data"].ToObject<Strain>();
+            Strain strain = DataRequester.GetObject<Strain>(urlGenerator.URL);
 
             return strain;
         }
 
-        public static IEnumerable<Strain> LookupStrain(string text)
+        public static IEnumerable<Strain> LookupStrain(string query)
         {
-            string url = "https://www.cannabisreports.com/api/v1.0/strains/search/" + text;
-            string json = DataRequester.GetData(url);
-            var strains = new List<Strain>();
+            var urlGenerator = new UrlGenerator();
 
-            JObject rawData = JObject.Parse(json);
+            urlGenerator.GenerateCannabisReportsUrl(PrimaryObjectType.Strain, query);
 
-            foreach (JToken strain in rawData["data"].Children())
-            {
-                Strain tempStrain = strain.ToObject<Strain>();
-                strains.Add(tempStrain);
-            }
+            IEnumerable<Strain> strains = DataRequester.GetObjects<Strain>(urlGenerator.URL);
 
             return strains;
         }
 
         public static User GetStrainUser(string ucpc)
         {
-            string url = "https://www.cannabisreports.com/api/v1.0/strains/" + ucpc + "/user";
-            string json = DataRequester.GetData(url);
+            var urlGenerator = new UrlGenerator();
+            var ucpcObject = new UCPC(ucpc, PrimaryObjectType.Strain);
 
-            JObject rawData = JObject.Parse(json);
-            User user = rawData["data"].ToObject<User>();
+            urlGenerator.GenerateCannabisReportsUrl(ucpcObject,SecondaryObjectType.User);
+
+            User user = DataRequester.GetObject<User>(urlGenerator.URL);
 
             return user;
         }
 
         public static IEnumerable<Review> GetStrainReviews(string ucpc, int pageNumber = 0)
         {
-            string url = "https://www.cannabisreports.com/api/v1.0/strains/" + ucpc + "/reviews";
-            string pageArguement = "?page=" + pageNumber;
-            string json = DataRequester.GetData(url);
-            var reviews = new List<Review>();
+            var urlGenerator = new UrlGenerator();
+            var ucpcObject = new UCPC(ucpc, PrimaryObjectType.Strain);
 
-            JObject rawData = JObject.Parse(json);
+            urlGenerator.GenerateCannabisReportsUrl(ucpcObject,SecondaryObjectType.Review);
+            urlGenerator.AddQueryParameters(pageNumber);
 
-            if (pageNumber > 0)
-            {
-                url = url + pageArguement;
-            }
-
-            foreach (JToken token in rawData["data"].Children())
-            {
-                Review review = token.ToObject<Review>();
-                reviews.Add(review);
-            }
+            IEnumerable<Review> reviews = DataRequester.GetObjects<Review>(urlGenerator.URL);
             
             return reviews;
         }
 
         public static EffectsAndFlavors GetStrainEffectsFlavors(string ucpc)
         {
-            string url = "https://www.cannabisreports.com/api/v1.0/strains/" + ucpc + "/effectsFlavors";
+            var urlGenerator = new UrlGenerator();
+            var ucpcObject = new UCPC(ucpc, PrimaryObjectType.Strain);
 
-            string json = DataRequester.GetData(url);
+            urlGenerator.GenerateCannabisReportsUrl(ucpcObject, SecondaryObjectType.EffectsAndFlavors);
 
-            JObject rawData = JObject.Parse(json);
-
-            EffectsAndFlavors effectsAndFlavors = rawData["data"].ToObject<EffectsAndFlavors>();
+            EffectsAndFlavors effectsAndFlavors = DataRequester.GetObject<EffectsAndFlavors>(urlGenerator.URL);
 
             return effectsAndFlavors;
         }
 
         public static SeedCompany GetStrainSeedCompany(string ucpc)
         {
-            string url = "https://www.cannabisreports.com/api/v1.0/strains/" + ucpc + "/seedCompany";
+            var urlGenerator = new UrlGenerator();
+            var ucpcObject = new UCPC(ucpc, PrimaryObjectType.Strain);
 
-            string json = DataRequester.GetData(url);
+            urlGenerator.GenerateCannabisReportsUrl(ucpcObject, SecondaryObjectType.SeedCompany);
 
-            JObject rawData = JObject.Parse(json);
-
-            SeedCompany seedCompany = rawData["data"].ToObject<SeedCompany>();
+            SeedCompany seedCompany = DataRequester.GetObject<SeedCompany>(urlGenerator.URL);
 
             return seedCompany;
         }
 
         public static IEnumerable<Strain> GetStrainGenetics(string ucpc)
         {
-            string url = "https://www.cannabisreports.com/api/v1.0/strains/" + ucpc + "/genetics";
-            string json = DataRequester.GetData(url);
-            var strains = new List<Strain>();
+            var urlGenerator = new UrlGenerator();
+            var ucpcObject = new UCPC(ucpc, PrimaryObjectType.Strain);
 
-            JObject rawData = JObject.Parse(json);
+            urlGenerator.GenerateCannabisReportsUrl(ucpcObject, SecondaryObjectType.Genetics);
 
-            foreach (JToken strain in rawData["data"].Children())
-            {
-                Strain tempStrain = strain.ToObject<Strain>();
-                strains.Add(tempStrain);
-            }
+            IEnumerable<Strain> strains = DataRequester.GetObjects<Strain>(urlGenerator.URL);
 
             return strains;
         }
 
         public static IEnumerable<Strain> GetStrainChildren(string ucpc, int pageNumber = 0)
         {
-            string url = "https://www.cannabisreports.com/api/v1.0/strains/" + ucpc + "/children";
-            string pageArguement = "?page=" + pageNumber;
-            string json = DataRequester.GetData(url);
-            var strains = new List<Strain>();
+            var urlGenerator = new UrlGenerator();
+            var ucpcObject = new UCPC(ucpc, PrimaryObjectType.Strain);
 
-            JObject rawData = JObject.Parse(json);
+            urlGenerator.GenerateCannabisReportsUrl(ucpcObject, SecondaryObjectType.Children);
+            urlGenerator.AddQueryParameters(pageNumber);
 
-            if (pageNumber > 0)
-            {
-                url = url + pageArguement;
-            }
-
-            foreach (JToken strain in rawData["data"].Children())
-            {
-                Strain tempStrain = strain.ToObject<Strain>();
-                strains.Add(tempStrain);
-            }
+            IEnumerable<Strain> strains = DataRequester.GetObjects<Strain>(urlGenerator.URL);
 
             return strains;
         }
 
         public static IEnumerable<MenuItemSummary> GetStrainAvailability(string ucpc, decimal latitude, decimal longitude, int radiusInMiles, int pageNumber = 0)
         {
-            string url = "https://www.cannabisreports.com/api/v1.0/strains/" + ucpc
-                + "/availability/geo/" + latitude + "/" + longitude;
-            string pageArguement = "?page=" + pageNumber;
-            string json = DataRequester.GetData(url);
-            var menuItemSummaries = new List<MenuItemSummary>();
+            var urlGenerator = new UrlGenerator();
+            var ucpcObject = new UCPC(ucpc, PrimaryObjectType.Strain);
 
-            JObject rawData = JObject.Parse(json);
+            urlGenerator.GenerateCannabisReportsUrl
+                (
+                    ucpcObject,
+                    latitude,
+                    longitude,
+                    radiusInMiles
+                );
+            urlGenerator.AddQueryParameters(pageNumber);
 
-            if (radiusInMiles > 0)
-            {
-                url = url + "/" + radiusInMiles.ToString();
-            }
-
-            if (pageNumber > 0)
-            {
-                url = url + pageArguement;
-            }
-
-            foreach (JToken menuItemSummary in rawData["data"].Children())
-            {
-                MenuItemSummary tempSummary = menuItemSummary.ToObject<MenuItemSummary>();
-                menuItemSummaries.Add(tempSummary);
-            }
+            IEnumerable<MenuItemSummary> menuItemSummaries = DataRequester.GetObjects<MenuItemSummary>(urlGenerator.URL);
 
             return menuItemSummaries;
         }
+
     }
 }

@@ -11,7 +11,7 @@ namespace OpenReports.Net
         public string Name { get; private set; }
 
         [JsonProperty(PropertyName = "ucpc")]
-        public string Ucpc { get; private set; }
+        public string UCPC { get; private set; }
 
         [JsonProperty(PropertyName = "link")]
         public string Link { get; private set; }
@@ -29,21 +29,21 @@ namespace OpenReports.Net
         public Lineage Lineage { get; private set;}
 
         [JsonProperty(PropertyName = "strains")]
-        public StrainLink Strains { get; private set; }
+        public ObjectsLink Strains { get; private set; }
 
         [JsonProperty(PropertyName = "reviews")]
-        public ReviewsLink Reviews { get; private set; }
+        public ObjectsLink Reviews { get; private set; }
 
         [JsonProperty(PropertyName = "createdAt")]
-        public CreatedAt CreatedAt { get; private set; }
+        public TimeStamp CreatedAt { get; private set; }
 
         [JsonProperty(PropertyName = "updatedAt")]
-        public UpdatedAt UpdatedAt { get; private set; }
+        public TimeStamp UpdatedAt { get; private set; }
 
         public bool IsValid()
         {
             if (Name == null) { return false; }
-            if (Ucpc == null) { return false; }
+            if (UCPC == null) { return false; }
             if (Link == null) { return false; }
             if (Qr == null) { return false; }
             if (Url == null) { return false; }
