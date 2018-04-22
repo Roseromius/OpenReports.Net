@@ -4,50 +4,50 @@ using System.Text;
 
 namespace OpenReports.Net
 {
-    public class ExtractController
+    public class ProductController
     {
-        public static IEnumerable<Extract> GetExtracts(int pageNumber = 0, SortOption sortingOption = SortOption.Unassigned)
+        public static IEnumerable<Product> GetProducts(int pageNumber = 0, SortOption sortingOption = SortOption.Unassigned)
         {
             var urlGenerator = new UrlGenerator();
 
-            urlGenerator.GenerateCannabisReportsUrl(PrimaryObjectType.Extract);
+            urlGenerator.GenerateCannabisReportsUrl(PrimaryObjectType.Product);
 
             urlGenerator.AddQueryParameters(pageNumber, sortingOption);//ADD SORTING/PAGE OPTIONS
 
-            IEnumerable<Extract> extracts = DataRequester.GetObjects<Extract>(urlGenerator.URL);
+            IEnumerable<Product> products = DataRequester.GetObjects<Product>(urlGenerator.URL);
 
-            return extracts;
+            return products;
         }
 
-        public static IEnumerable<Extract> GetExtractByType(SecondaryObjectType type, int pageNumber = 0, SortOption sortingOption = SortOption.Unassigned)
+        public static IEnumerable<Product> GetProductByType(SecondaryObjectType type, int pageNumber = 0, SortOption sortingOption = SortOption.Unassigned)
         {
             var urlGenerator = new UrlGenerator();
 
-            urlGenerator.GenerateCannabisReportsUrl(PrimaryObjectType.Extract, type);
+            urlGenerator.GenerateCannabisReportsUrl(PrimaryObjectType.Product, type);
 
             urlGenerator.AddQueryParameters(pageNumber, sortingOption);
 
-            IEnumerable<Extract> extracts = DataRequester.GetObjects<Extract>(urlGenerator.URL);
+            IEnumerable<Product> products = DataRequester.GetObjects<Product>(urlGenerator.URL);
 
-            return extracts;
+            return products;
         }
 
-        public static Extract GetExtract(string ucpc)
+        public static Product GetProduct(string ucpc)
         {
             var urlGenerator = new UrlGenerator();
-            var ucpcObject = new UCPC(ucpc, PrimaryObjectType.Extract);
+            var ucpcObject = new UCPC(ucpc, PrimaryObjectType.Product);
 
             urlGenerator.GenerateCannabisReportsUrl(ucpcObject);
 
-            Extract extract = DataRequester.GetObject<Extract>(urlGenerator.URL);
+            Product product = DataRequester.GetObject<Product>(urlGenerator.URL);
 
-            return extract;
+            return product;
         }
 
-        public static User GetExtractUser(string ucpc)
+        public static User GetProductUser(string ucpc)
         {
             var urlGenerator = new UrlGenerator();
-            var ucpcObject = new UCPC(ucpc, PrimaryObjectType.Extract);
+            var ucpcObject = new UCPC(ucpc, PrimaryObjectType.Product);
 
             urlGenerator.GenerateCannabisReportsUrl(ucpcObject, SecondaryObjectType.User);
 
@@ -56,10 +56,10 @@ namespace OpenReports.Net
             return user;
         }
 
-        public static IEnumerable<Review> GetExtractReviews(string ucpc, int pageNumber = 0)
+        public static IEnumerable<Review> GetProductReviews(string ucpc, int pageNumber = 0)
         {
             var urlGenerator = new UrlGenerator();
-            var ucpcObject = new UCPC(ucpc, PrimaryObjectType.Extract);
+            var ucpcObject = new UCPC(ucpc, PrimaryObjectType.Product);
 
             urlGenerator.GenerateCannabisReportsUrl(ucpcObject, SecondaryObjectType.Review);
             urlGenerator.AddQueryParameters(pageNumber);
@@ -69,10 +69,10 @@ namespace OpenReports.Net
             return reviews;
         }
 
-        public static EffectsAndFlavors GetExtractEffectsFlavors(string ucpc)
+        public static EffectsAndFlavors GetProductEffectsFlavors(string ucpc)
         {
             var urlGenerator = new UrlGenerator();
-            var ucpcObject = new UCPC(ucpc, PrimaryObjectType.Extract);
+            var ucpcObject = new UCPC(ucpc, PrimaryObjectType.Product);
 
             urlGenerator.GenerateCannabisReportsUrl(ucpcObject, SecondaryObjectType.EffectsAndFlavors);
 
@@ -81,10 +81,10 @@ namespace OpenReports.Net
             return effectsAndFlavors;
         }
 
-        public static Producer GetExtractProducer(string ucpc)
+        public static Producer GetProductProducer(string ucpc)
         {
             var urlGenerator = new UrlGenerator();
-            var ucpcObject = new UCPC(ucpc, PrimaryObjectType.Extract);
+            var ucpcObject = new UCPC(ucpc, PrimaryObjectType.Product);
 
             urlGenerator.GenerateCannabisReportsUrl(ucpcObject, SecondaryObjectType.Producer);
 
@@ -93,10 +93,10 @@ namespace OpenReports.Net
             return producer;
         }
 
-        public static Strain GetExtractStrain(string ucpc)
+        public static Strain GetProductStrain(string ucpc)
         {
             var urlGenerator = new UrlGenerator();
-            var ucpcObject = new UCPC(ucpc, PrimaryObjectType.Extract);
+            var ucpcObject = new UCPC(ucpc, PrimaryObjectType.Product);
 
             urlGenerator.GenerateCannabisReportsUrl(ucpcObject, SecondaryObjectType.Strain);
 
@@ -105,10 +105,10 @@ namespace OpenReports.Net
             return strain;
         }
 
-        public static IEnumerable<MenuItemSummary> GetExtractAvailability(string ucpc, decimal latitude, decimal longitude, int radiusInMiles, int pageNumber = 0)
+        public static IEnumerable<MenuItemSummary> GetProductAvailability(string ucpc, decimal latitude, decimal longitude, int radiusInMiles, int pageNumber = 0)
         {
             var urlGenerator = new UrlGenerator();
-            var ucpcObject = new UCPC(ucpc, PrimaryObjectType.Extract);
+            var ucpcObject = new UCPC(ucpc, PrimaryObjectType.Product);
 
             urlGenerator.GenerateCannabisReportsUrl
                 (

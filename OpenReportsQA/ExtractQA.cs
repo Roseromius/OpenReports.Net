@@ -10,15 +10,15 @@ using System.Text;
 namespace OpenReportsQA
 {
     [TestClass]
-    public class FlowerQA
+    public class ExtractQA
     {
         [TestMethod]
-        public void FlowerModelTest()
+        public void ExtractModelTest()
         {
             //ARRANGE
             string json = null;
-            string path = "JSON/Flower/Flowers.json";
-            var flowers = new List<Flower>();
+            string path = "JSON/Extract/Extracts.json";
+            var extracts = new List<Extract>();
 
 
             //ACT
@@ -33,119 +33,119 @@ namespace OpenReportsQA
 
             //Debug.WriteLine(rawData["data"].ToString());
 
-            foreach (JToken flower in rawData["data"].Children())
+            foreach (JToken extract in rawData["data"].Children())
             {
-                Flower tempFlower = flower.ToObject<Flower>();
-                Console.WriteLine("Flower Added: " + tempFlower.Name);
-                flowers.Add(tempFlower);
+                Extract tempExtract = extract.ToObject<Extract>();
+                Console.WriteLine("Extract Added: " + tempExtract.Name);
+                extracts.Add(tempExtract);
             }
 
             //ASSERT
             Assert.IsNotNull(json);
             Assert.IsTrue(json != "");
-            Assert.IsTrue(flowers.Count > 0); //*/
+            Assert.IsTrue(extracts.Count > 0); //*/
 
-            foreach (Flower flower in flowers)
+            foreach (Extract extract in extracts)
             {
-                Assert.IsTrue(flower.IsValid());
+                Assert.IsTrue(extract.IsValid());
             }
 
             //OUTPUT
-            Console.WriteLine("Flower Count: " + flowers.Count);
+            Console.WriteLine("Extract Count: " + extracts.Count);
 
         }
 
         [TestMethod]
-        public void FlowerRequestTest()
+        public void ExtractRequestTest()
         {
             //ARRANGE
-            var flowers = new List<Flower>();
+            var extracts = new List<Extract>();
 
             //ACT
-            flowers = (List<Flower>)FlowerController.GetFlowers();
+            extracts = (List<Extract>)ExtractController.GetExtracts();
 
             //ASSERT
-            Assert.IsNotNull(flowers);
-            Assert.IsTrue(flowers.Count > 0);
+            Assert.IsNotNull(extracts);
+            Assert.IsTrue(extracts.Count > 0);
 
             //OUTPUT
-            foreach (Flower flower in flowers)
+            foreach (Extract extract in extracts)
             {
-                Console.WriteLine("Flower: " + flower.Name);
+                Console.WriteLine("Extract: " + extract.Name);
             }
 
-            Console.WriteLine("Flower Count: " + flowers.Count);
+            Console.WriteLine("Extract Count: " + extracts.Count);
         }
 
         [TestMethod]
-        public void FlowersByTypeTest()
+        public void ExtractByTypeTest()
         {
             //ARRANGE
-            var flowers = new List<Flower>();
+            var extracts = new List<Extract>();
 
             //ACT
-            flowers = (List<Flower>)FlowerController.GetFlowerByType(SecondaryObjectType.Seeds);
+            extracts = (List<Extract>)ExtractController.GetExtractByType(SecondaryObjectType.Shatter);
 
             //ASSERT
-            Assert.IsNotNull(flowers);
-            Assert.IsTrue(flowers.Count > 0);
+            Assert.IsNotNull(extracts);
+            Assert.IsTrue(extracts.Count > 0);
 
             //OUTPUT
-            foreach (Flower flower in flowers)
+            foreach (Extract extract in extracts)
             {
-                Console.WriteLine("Flower: " + flower.Name);
-                Console.WriteLine("THC: " + flower.THC);
-                Console.WriteLine("CBD: " + flower.CBD);
+                Console.WriteLine("Extract: " + extract.Name);
+                Console.WriteLine("THC: " + extract.THC);
+                Console.WriteLine("CBD: " + extract.CBD);
                 Console.WriteLine("---------------------");
             }
 
-            Console.WriteLine("Flower Count: " + flowers.Count);
+            Console.WriteLine("Extract Count: " + extracts.Count);
         }
 
         [TestMethod]
-        public void SingleFlowerRequestTest()
+        public void SingleExtractRequestTest()
         {
             //ARRANGE
-            var flower = new Flower();
+            var extract = new Extract();
 
             //ACT
-            flower = (Flower)FlowerController.GetFlower("9XVU7FNY7ZMW2KZQTVNR00000");
+            extract = ExtractController.GetExtract("9XVU74QKE6UK4P69XKZH00000");
 
             //ASSERT
-            Assert.IsNotNull(flower);
-            Assert.IsTrue(flower.IsValid());
-            Assert.IsTrue(flower.Name == "Key Lime Pie - Flowers");
+            Assert.IsNotNull(extract);
+            Assert.IsTrue(extract.IsValid());
+            Assert.IsTrue(extract.Name == "Blue Berry - Wax");
 
             //OUTPUT
-            Console.WriteLine("Flower: " + flower.Name);
+            Console.WriteLine("Extract: " + extract.Name);
         }
 
         [TestMethod]
-        public void FlowerUserTest()
+        public void ExtractUserTest()
         {
             //ARRANGE
             var user = new User();
 
             //ACT
-            user = (User)FlowerController.GetFlowerUser("AHZ7H4N6467FVUDY3DAY00000");
+            user = ExtractController.GetExtractUser("QLG39RN2AFPMR6WLTPLW00000");
 
             //ASSERT
             Assert.IsNotNull(user); ;
             Assert.IsTrue(user.IsValid());
-            Assert.IsTrue(user.Nickname == "jbcrockett");
+            Assert.IsTrue(user.Nickname == "Untamed Dame");
 
             //OUTPUT
             Console.WriteLine("Name: " + user.Nickname);
         }
 
         [TestMethod]
-        public void FlowerReviewsTest()
+        public void ExtractReviewsTest()
         {
             //ARRANGE
             var reviews = new List<Review>();
 
             //ACT
-            reviews = (List<Review>)FlowerController.GetFlowerReviews("AHZ7H4N6467FVUDY3DAY00000", 1);
+            reviews = (List<Review>)ExtractController.GetExtractReviews("9XVU762EQ4VU7TG3N9NM00000", 1);
 
             //ASSERT
             Assert.IsNotNull(reviews);
@@ -168,13 +168,13 @@ namespace OpenReportsQA
         }
 
         [TestMethod]
-        public void FlowerEffectsAndFlavorsTest()
+        public void ExtractEffectsAndFlavorsTest()
         {
             //ARRANGE
             var effectsAndFlavors = new EffectsAndFlavors();
 
             //ACT
-            effectsAndFlavors = (EffectsAndFlavors)FlowerController.GetFlowerEffectsFlavors("AHZ7H4N6467FVUDY3DAY00000");
+            effectsAndFlavors = ExtractController.GetExtractEffectsFlavors("9XVU74QKE6UK4P69XKZH00000");
 
             //ASSERT
             Assert.IsNotNull(effectsAndFlavors);
@@ -188,13 +188,13 @@ namespace OpenReportsQA
         }
 
         [TestMethod]
-        public void FlowerProducerTest()
+        public void ExtractProducerTest()
         {
             //ARRANGE
             var producer = new Producer();
 
             //ACT
-            producer = (Producer)FlowerController.GetFlowerProducer("AHZ7H4N6467FVUDY3DAY00000");
+            producer = ExtractController.GetExtractProducer("9XVU74QKE6UK4P69XKZH00000");
 
             //ASSERT
             Assert.IsNotNull(producer);
@@ -206,13 +206,13 @@ namespace OpenReportsQA
         }
 
         [TestMethod]
-        public void FlowerStrainTest()
+        public void ExtractStrainTest()
         {
             //ARRANGE
             var strain = new Strain();
 
             //ACT
-            strain = (Strain)FlowerController.GetFlowerStrain("AHZ7H4N6467FVUDY3DAY00000");
+            strain = ExtractController.GetExtractStrain("9XVU74QKE6UK4P69XKZH00000");
 
             //ASSERT
             Assert.IsNotNull(strain);
@@ -225,13 +225,19 @@ namespace OpenReportsQA
         }
 
         [TestMethod]
-        public void FlowerAvailabilityTest()
+        public void ExtractAvailabilityTest()
         {
             //ARRANGE
             var menuItemSummaries = new List<MenuItemSummary>();
 
             //ACT
-            menuItemSummaries = (List<MenuItemSummary>)FlowerController.GetFlowerAvailability("YYRZDWGVU22WJVPGDJ7J00000", 37.7749295m, -122.4194155m, 10);
+            menuItemSummaries = (List<MenuItemSummary>)ExtractController.GetExtractAvailability
+                (
+                    "9XVU7GMTKCHNWPT6WGRR00000",
+                    37.7749295m,
+                    -122.4194155m,
+                    25
+                );
 
             //ASSERT
             Assert.IsNotNull(menuItemSummaries);
@@ -255,5 +261,6 @@ namespace OpenReportsQA
             Console.WriteLine("Summary Count: " + menuItemSummaries.Count);
 
         }
+
     }
 }

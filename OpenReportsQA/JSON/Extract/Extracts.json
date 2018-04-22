@@ -1,0 +1,366 @@
+﻿{
+  "data": [
+    {
+      "name": "Blue Berry - Wax",
+      "ucpc": "9XVU74QKE6UK4P69XKZH00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/extracts/9XVU74QKE6UK4P69XKZH00000",
+      "qr": "https://www.cannabisreports.com/extract-reports/qr-code/chameleon-extracts/unknown-breeder/blue-berry/wax.png",
+      "barcode": "https://www.cannabisreports.com/extract-reports/barcode/chameleon-extracts/unknown-breeder/blue-berry/wax.png",
+      "url": "https://www.cannabisreports.com/extract-reports/chameleon-extracts/unknown-breeder/blue-berry/wax",
+      "image": "https://www.cannabisreports.com/images/strains/no_image.jpg",
+      "producer": {
+        "name": "Chameleon Extracts",
+        "ucpc": "0000000000UK4P60000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000UK4P60000000000"
+      },
+      "type": "wax",
+      "strain": {
+        "name": "Blue Berry",
+        "ucpc": "9XVU74QKE6000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU74QKE6000000000000000"
+      },
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "reviews": {
+        "count": 1,
+        "link": "https://www.cannabisreports.com/api/v1.0/extracts/9XVU74QKE6UK4P69XKZH00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-04-03 22:03:15",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-04-03 22:03:15",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Blue Dream - Vaporizer Cartridge",
+      "ucpc": "9XVU7PTG2PHNWPTCFU4L00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/extracts/9XVU7PTG2PHNWPTCFU4L00000",
+      "qr": "https://www.cannabisreports.com/extract-reports/qr-code/sunderstorm/unknown-breeder/blue-dream/vaporizer-cartridge.png",
+      "barcode": "https://www.cannabisreports.com/extract-reports/barcode/sunderstorm/unknown-breeder/blue-dream/vaporizer-cartridge.png",
+      "url": "https://www.cannabisreports.com/extract-reports/sunderstorm/unknown-breeder/blue-dream/vaporizer-cartridge",
+      "image": "https://www.cannabisreports.com/images/extracts/d/full_d745cb4b9ccd6b38752ccf900decded48868b554.jpg",
+      "producer": {
+        "name": "Sunderstorm",
+        "ucpc": "0000000000HNWPT0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000HNWPT0000000000"
+      },
+      "type": "vaporizer cartridge",
+      "strain": {
+        "name": "Blue Dream",
+        "ucpc": "9XVU7PTG2P000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU7PTG2P000000000000000"
+      },
+      "labTest": false,
+      "thc": "60%",
+      "cbd": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/extracts/9XVU7PTG2PHNWPTCFU4L00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-02-06 21:11:22",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-02-06 21:11:22",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "White Mango - Shatter",
+      "ucpc": "9XVU7RQ963ZGUP4GGRFP00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/extracts/9XVU7RQ963ZGUP4GGRFP00000",
+      "qr": "https://www.cannabisreports.com/extract-reports/qr-code/rising-sun-extract/unknown-breeder/white-mango/shatter.png",
+      "barcode": "https://www.cannabisreports.com/extract-reports/barcode/rising-sun-extract/unknown-breeder/white-mango/shatter.png",
+      "url": "https://www.cannabisreports.com/extract-reports/rising-sun-extract/unknown-breeder/white-mango/shatter",
+      "image": "https://www.cannabisreports.com/images/extracts/0/full_0bf3128ec8bfaa454b23a9e824b357d695035f76.jpg",
+      "producer": {
+        "name": "Rising Sun Extract",
+        "ucpc": "0000000000ZGUP40000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000ZGUP40000000000"
+      },
+      "type": "shatter",
+      "strain": {
+        "name": "White Mango",
+        "ucpc": "9XVU7RQ963000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU7RQ963000000000000000"
+      },
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/extracts/9XVU7RQ963ZGUP4GGRFP00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-01-12 16:23:05",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-01-12 16:23:06",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Super Silver Haze (SSH) - Wax",
+      "ucpc": "K3TYM2T4TT6DZTPGA7UJ00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/extracts/K3TYM2T4TT6DZTPGA7UJ00000",
+      "qr": "https://www.cannabisreports.com/extract-reports/qr-code/kaizen-medicinal/green-house-seed-co/super-silver-haze-ssh/wax.png",
+      "barcode": "https://www.cannabisreports.com/extract-reports/barcode/kaizen-medicinal/green-house-seed-co/super-silver-haze-ssh/wax.png",
+      "url": "https://www.cannabisreports.com/extract-reports/kaizen-medicinal/green-house-seed-co/super-silver-haze-ssh/wax",
+      "image": "https://www.cannabisreports.com/images/strains/no_image.jpg",
+      "producer": {
+        "name": "Kaizen Medicinal",
+        "ucpc": "00000000006DZTP0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000006DZTP0000000000"
+      },
+      "type": "wax",
+      "strain": {
+        "name": "Super Silver Haze (SSH)",
+        "ucpc": "K3TYM2T4TT000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/K3TYM2T4TT000000000000000"
+      },
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/extracts/K3TYM2T4TT6DZTPGA7UJ00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-01-06 00:44:51",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-01-06 00:44:51",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Harlequin x Granddaddy Blueberry - Wax",
+      "ucpc": "9XVU7DV6QW6DZTPN2L7700000",
+      "link": "https://www.cannabisreports.com/api/v1.0/extracts/9XVU7DV6QW6DZTPN2L7700000",
+      "qr": "https://www.cannabisreports.com/extract-reports/qr-code/kaizen-medicinal/unknown-breeder/harlequin-x-granddaddy-blueberry/wax.png",
+      "barcode": "https://www.cannabisreports.com/extract-reports/barcode/kaizen-medicinal/unknown-breeder/harlequin-x-granddaddy-blueberry/wax.png",
+      "url": "https://www.cannabisreports.com/extract-reports/kaizen-medicinal/unknown-breeder/harlequin-x-granddaddy-blueberry/wax",
+      "image": "https://www.cannabisreports.com/images/strains/no_image.jpg",
+      "producer": {
+        "name": "Kaizen Medicinal",
+        "ucpc": "00000000006DZTP0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000006DZTP0000000000"
+      },
+      "type": "wax",
+      "strain": {
+        "name": "Harlequin x Granddaddy Blueberry",
+        "ucpc": "9XVU7DV6QW000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU7DV6QW000000000000000"
+      },
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/extracts/9XVU7DV6QW6DZTPN2L7700000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-01-06 00:34:17",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-01-06 00:34:17",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Banana Cream Pie - Wax",
+      "ucpc": "9XVU7UU6Q96DZTPQ4LKT00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/extracts/9XVU7UU6Q96DZTPQ4LKT00000",
+      "qr": "https://www.cannabisreports.com/extract-reports/qr-code/kaizen-medicinal/unknown-breeder/banana-cream-pie/wax.png",
+      "barcode": "https://www.cannabisreports.com/extract-reports/barcode/kaizen-medicinal/unknown-breeder/banana-cream-pie/wax.png",
+      "url": "https://www.cannabisreports.com/extract-reports/kaizen-medicinal/unknown-breeder/banana-cream-pie/wax",
+      "image": "https://www.cannabisreports.com/images/strains/no_image.jpg",
+      "producer": {
+        "name": "Kaizen Medicinal",
+        "ucpc": "00000000006DZTP0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000006DZTP0000000000"
+      },
+      "type": "wax",
+      "strain": {
+        "name": "Banana Cream Pie",
+        "ucpc": "9XVU7UU6Q9000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU7UU6Q9000000000000000"
+      },
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/extracts/9XVU7UU6Q96DZTPQ4LKT00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-01-06 00:24:13",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-01-06 00:24:13",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Kosher Kush - Crumble",
+      "ucpc": "4PNYLP9L7P6DZTP46PJV00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/extracts/4PNYLP9L7P6DZTP46PJV00000",
+      "qr": "https://www.cannabisreports.com/extract-reports/qr-code/kaizen-medicinal/reserva-privada/kosher-kush/crumble.png",
+      "barcode": "https://www.cannabisreports.com/extract-reports/barcode/kaizen-medicinal/reserva-privada/kosher-kush/crumble.png",
+      "url": "https://www.cannabisreports.com/extract-reports/kaizen-medicinal/reserva-privada/kosher-kush/crumble",
+      "image": "https://www.cannabisreports.com/images/strains/no_image.jpg",
+      "producer": {
+        "name": "Kaizen Medicinal",
+        "ucpc": "00000000006DZTP0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000006DZTP0000000000"
+      },
+      "type": "crumble",
+      "strain": {
+        "name": "Kosher Kush",
+        "ucpc": "4PNYLP9L7P000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/4PNYLP9L7P000000000000000"
+      },
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/extracts/4PNYLP9L7P6DZTP46PJV00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-01-06 00:22:26",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-01-06 00:22:26",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Trainwreck - Shatter",
+      "ucpc": "9XVU76K2ZHZGUP4U6C9T00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/extracts/9XVU76K2ZHZGUP4U6C9T00000",
+      "qr": "https://www.cannabisreports.com/extract-reports/qr-code/rising-sun-extract/unknown-breeder/trainwreck/shatter.png",
+      "barcode": "https://www.cannabisreports.com/extract-reports/barcode/rising-sun-extract/unknown-breeder/trainwreck/shatter.png",
+      "url": "https://www.cannabisreports.com/extract-reports/rising-sun-extract/unknown-breeder/trainwreck/shatter",
+      "image": "https://www.cannabisreports.com/images/extracts/f/full_f2b90a470022e4161175fa94dac41a2a1073c650.jpg",
+      "producer": {
+        "name": "Rising Sun Extract",
+        "ucpc": "0000000000ZGUP40000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000ZGUP40000000000"
+      },
+      "type": "shatter",
+      "strain": {
+        "name": "Trainwreck",
+        "ucpc": "9XVU76K2ZH000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU76K2ZH000000000000000"
+      },
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/extracts/9XVU76K2ZHZGUP4U6C9T00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-01-05 22:01:45",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-01-05 22:01:45",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Elmer's Glue - Shatter",
+      "ucpc": "7QL76GMTYEZGUP4R2G7L00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/extracts/7QL76GMTYEZGUP4R2G7L00000",
+      "qr": "https://www.cannabisreports.com/extract-reports/qr-code/rising-sun-extract/relentless-genetics/elmers-glue/shatter.png",
+      "barcode": "https://www.cannabisreports.com/extract-reports/barcode/rising-sun-extract/relentless-genetics/elmers-glue/shatter.png",
+      "url": "https://www.cannabisreports.com/extract-reports/rising-sun-extract/relentless-genetics/elmers-glue/shatter",
+      "image": "https://www.cannabisreports.com/images/extracts/8/full_828dddca3140dfc411881e5b5125f8ae692af352.jpg",
+      "producer": {
+        "name": "Rising Sun Extract",
+        "ucpc": "0000000000ZGUP40000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000ZGUP40000000000"
+      },
+      "type": "shatter",
+      "strain": {
+        "name": "Elmer's Glue",
+        "ucpc": "7QL76GMTYE000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/7QL76GMTYE000000000000000"
+      },
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/extracts/7QL76GMTYEZGUP4R2G7L00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-01-05 21:58:06",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-01-05 21:58:07",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Pineapple Dream - Shatter",
+      "ucpc": "9XVU73AKM2ZGUP4CZQAR00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/extracts/9XVU73AKM2ZGUP4CZQAR00000",
+      "qr": "https://www.cannabisreports.com/extract-reports/qr-code/rising-sun-extract/unknown-breeder/pineapple-dream/shatter.png",
+      "barcode": "https://www.cannabisreports.com/extract-reports/barcode/rising-sun-extract/unknown-breeder/pineapple-dream/shatter.png",
+      "url": "https://www.cannabisreports.com/extract-reports/rising-sun-extract/unknown-breeder/pineapple-dream/shatter",
+      "image": "https://www.cannabisreports.com/images/extracts/9/full_9d57184d0e6451b3fc514440de4ac6da3861253e.jpg",
+      "producer": {
+        "name": "Rising Sun Extract",
+        "ucpc": "0000000000ZGUP40000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000ZGUP40000000000"
+      },
+      "type": "shatter",
+      "strain": {
+        "name": "Pineapple Dream",
+        "ucpc": "9XVU73AKM2000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU73AKM2000000000000000"
+      },
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/extracts/9XVU73AKM2ZGUP4CZQAR00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-01-05 21:57:44",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-01-05 21:57:44",
+        "timezone": "UTC"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "total": 10576,
+      "count": 10,
+      "per_page": 10,
+      "current_page": 1,
+      "total_pages": 1058,
+      "links": {
+        "next": "https://www.cannabisreports.com/api/v1.0/extracts?page=2"
+      }
+    }
+  }
+}

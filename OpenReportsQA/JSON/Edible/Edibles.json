@@ -1,0 +1,346 @@
+﻿{
+  "data": [
+    {
+      "name": "ZOOTROCKS LemonGrass",
+      "ucpc": "0000000000EPWDVP3HT900000",
+      "link": "https://www.cannabisreports.com/api/v1.0/edibles/0000000000EPWDVP3HT900000",
+      "qr": "https://www.cannabisreports.com/edible-reports/qr-code/zoots/zootrocks-lemongrass",
+      "barcode": "https://www.cannabisreports.com/edible-reports/barcode/zoots/zootrocks-lemongrass",
+      "url": "https://www.cannabisreports.com/edible-reports/zoots/zootrocks-lemongrass",
+      "image": "https://www.cannabisreports.com/images/edibles/9/full_9a4e4aa4a8079966d6b473b32fdd1a94f9b6d694.jpg",
+      "producer": {
+        "name": "ZOOTS",
+        "ucpc": "0000000000EPWDV0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000EPWDV0000000000"
+      },
+      "type": "candy",
+      "strain": [],
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "cannabis": false,
+      "hashOil": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/edibles/0000000000EPWDVP3HT900000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-12-21 07:09:19",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-12-21 07:09:19",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "ZOOTROCKS Cinnamon",
+      "ucpc": "0000000000EPWDVYV4ZP00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/edibles/0000000000EPWDVYV4ZP00000",
+      "qr": "https://www.cannabisreports.com/edible-reports/qr-code/zoots/zootrocks-cinnamon",
+      "barcode": "https://www.cannabisreports.com/edible-reports/barcode/zoots/zootrocks-cinnamon",
+      "url": "https://www.cannabisreports.com/edible-reports/zoots/zootrocks-cinnamon",
+      "image": "https://www.cannabisreports.com/images/edibles/8/full_89c258d999b713e9b409175ff11e746330b4cccf.jpg",
+      "producer": {
+        "name": "ZOOTS",
+        "ucpc": "0000000000EPWDV0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000EPWDV0000000000"
+      },
+      "type": "candy",
+      "strain": [],
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "cannabis": false,
+      "hashOil": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/edibles/0000000000EPWDVYV4ZP00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-12-21 07:09:19",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-12-21 07:09:19",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "ZOOTROCKS Zootberry",
+      "ucpc": "0000000000EPWDVPVMFM00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/edibles/0000000000EPWDVPVMFM00000",
+      "qr": "https://www.cannabisreports.com/edible-reports/qr-code/zoots/zootrocks-zootberry",
+      "barcode": "https://www.cannabisreports.com/edible-reports/barcode/zoots/zootrocks-zootberry",
+      "url": "https://www.cannabisreports.com/edible-reports/zoots/zootrocks-zootberry",
+      "image": "https://www.cannabisreports.com/images/edibles/8/full_8869101df56c658eb5daf138222811fe18ccb49b.jpg",
+      "producer": {
+        "name": "ZOOTS",
+        "ucpc": "0000000000EPWDV0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000EPWDV0000000000"
+      },
+      "type": "candy",
+      "strain": [],
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "cannabis": false,
+      "hashOil": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/edibles/0000000000EPWDVPVMFM00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-12-21 07:09:18",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-12-21 07:09:18",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "ZOOTDROPS Yippee Ki-Yay Mandarine Lime",
+      "ucpc": "0000000000EPWDVTNRH900000",
+      "link": "https://www.cannabisreports.com/api/v1.0/edibles/0000000000EPWDVTNRH900000",
+      "qr": "https://www.cannabisreports.com/edible-reports/qr-code/zoots/zootdrops-yippee-ki-yay-mandarine-lime",
+      "barcode": "https://www.cannabisreports.com/edible-reports/barcode/zoots/zootdrops-yippee-ki-yay-mandarine-lime",
+      "url": "https://www.cannabisreports.com/edible-reports/zoots/zootdrops-yippee-ki-yay-mandarine-lime",
+      "image": "https://www.cannabisreports.com/images/edibles/f/full_f2188d8ebfe86f372fc90167327ab766316057da.jpg",
+      "producer": {
+        "name": "ZOOTS",
+        "ucpc": "0000000000EPWDV0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000EPWDV0000000000"
+      },
+      "type": "beverage",
+      "strain": [],
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "cannabis": false,
+      "hashOil": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/edibles/0000000000EPWDVTNRH900000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-12-21 07:09:18",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-12-21 07:09:18",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "ZOOTDROPS Kick Back Lemon",
+      "ucpc": "0000000000EPWDVHUVJD00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/edibles/0000000000EPWDVHUVJD00000",
+      "qr": "https://www.cannabisreports.com/edible-reports/qr-code/zoots/zootdrops-kick-back-lemon",
+      "barcode": "https://www.cannabisreports.com/edible-reports/barcode/zoots/zootdrops-kick-back-lemon",
+      "url": "https://www.cannabisreports.com/edible-reports/zoots/zootdrops-kick-back-lemon",
+      "image": "https://www.cannabisreports.com/images/edibles/c/full_c718192262478f3cb0dd0002804168723adeff4f.jpg",
+      "producer": {
+        "name": "ZOOTS",
+        "ucpc": "0000000000EPWDV0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000EPWDV0000000000"
+      },
+      "type": "beverage",
+      "strain": [],
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "cannabis": false,
+      "hashOil": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/edibles/0000000000EPWDVHUVJD00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-12-21 07:09:18",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-12-21 07:09:18",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "ZOOTROCKS Caramel",
+      "ucpc": "0000000000EPWDVDXFV900000",
+      "link": "https://www.cannabisreports.com/api/v1.0/edibles/0000000000EPWDVDXFV900000",
+      "qr": "https://www.cannabisreports.com/edible-reports/qr-code/zoots/zootrocks-caramel",
+      "barcode": "https://www.cannabisreports.com/edible-reports/barcode/zoots/zootrocks-caramel",
+      "url": "https://www.cannabisreports.com/edible-reports/zoots/zootrocks-caramel",
+      "image": "https://www.cannabisreports.com/images/edibles/9/full_9cc21dd8b876efd5c11c9a3292f67b8d8971036f.jpg",
+      "producer": {
+        "name": "ZOOTS",
+        "ucpc": "0000000000EPWDV0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000EPWDV0000000000"
+      },
+      "type": "candy",
+      "strain": [],
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "cannabis": false,
+      "hashOil": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/edibles/0000000000EPWDVDXFV900000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-12-21 07:09:18",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-12-21 07:09:18",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "ZOOTBITES Caramel Expresso Brownies",
+      "ucpc": "0000000000EPWDVQCWA600000",
+      "link": "https://www.cannabisreports.com/api/v1.0/edibles/0000000000EPWDVQCWA600000",
+      "qr": "https://www.cannabisreports.com/edible-reports/qr-code/zoots/zootbites-caramel-expresso-brownies",
+      "barcode": "https://www.cannabisreports.com/edible-reports/barcode/zoots/zootbites-caramel-expresso-brownies",
+      "url": "https://www.cannabisreports.com/edible-reports/zoots/zootbites-caramel-expresso-brownies",
+      "image": "https://www.cannabisreports.com/images/edibles/2/full_27cd803af61746c0be73ef0b38c2bc1a3b42b332.jpg",
+      "producer": {
+        "name": "ZOOTS",
+        "ucpc": "0000000000EPWDV0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000EPWDV0000000000"
+      },
+      "type": "baked good",
+      "strain": [],
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "cannabis": false,
+      "hashOil": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/edibles/0000000000EPWDVQCWA600000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-12-21 07:09:17",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-12-21 07:09:17",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "ZOOTBLAST 30MG",
+      "ucpc": "0000000000EPWDVUWR6P00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/edibles/0000000000EPWDVUWR6P00000",
+      "qr": "https://www.cannabisreports.com/edible-reports/qr-code/zoots/zootblast-30mg",
+      "barcode": "https://www.cannabisreports.com/edible-reports/barcode/zoots/zootblast-30mg",
+      "url": "https://www.cannabisreports.com/edible-reports/zoots/zootblast-30mg",
+      "image": "https://www.cannabisreports.com/images/edibles/6/full_686e3d6df109aba71cdb371899deff0ea01ad897.jpg",
+      "producer": {
+        "name": "ZOOTS",
+        "ucpc": "0000000000EPWDV0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000EPWDV0000000000"
+      },
+      "type": "beverage",
+      "strain": [],
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "cannabis": false,
+      "hashOil": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/edibles/0000000000EPWDVUWR6P00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-12-21 07:09:17",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-12-21 07:09:17",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "ZOOTBLAST 10MG",
+      "ucpc": "0000000000EPWDVYLQYW00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/edibles/0000000000EPWDVYLQYW00000",
+      "qr": "https://www.cannabisreports.com/edible-reports/qr-code/zoots/zootblast-10mg",
+      "barcode": "https://www.cannabisreports.com/edible-reports/barcode/zoots/zootblast-10mg",
+      "url": "https://www.cannabisreports.com/edible-reports/zoots/zootblast-10mg",
+      "image": "https://www.cannabisreports.com/images/edibles/3/full_37a7f830bcaab35f8e8d537a7786169f347bbd6a.jpg",
+      "producer": {
+        "name": "ZOOTS",
+        "ucpc": "0000000000EPWDV0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000EPWDV0000000000"
+      },
+      "type": "beverage",
+      "strain": [],
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "cannabis": false,
+      "hashOil": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/edibles/0000000000EPWDVYLQYW00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-12-21 07:09:17",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-12-21 07:09:17",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "ZOOTBITES Chocolate Mint Cookies",
+      "ucpc": "0000000000EPWDVY4PD700000",
+      "link": "https://www.cannabisreports.com/api/v1.0/edibles/0000000000EPWDVY4PD700000",
+      "qr": "https://www.cannabisreports.com/edible-reports/qr-code/zoots/zootbites-chocolate-mint-cookies",
+      "barcode": "https://www.cannabisreports.com/edible-reports/barcode/zoots/zootbites-chocolate-mint-cookies",
+      "url": "https://www.cannabisreports.com/edible-reports/zoots/zootbites-chocolate-mint-cookies",
+      "image": "https://www.cannabisreports.com/images/edibles/0/full_084943b66bd9115911de5122710a3345a9355fd4.jpg",
+      "producer": {
+        "name": "ZOOTS",
+        "ucpc": "0000000000EPWDV0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000EPWDV0000000000"
+      },
+      "type": "baked good",
+      "strain": [],
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "cannabis": false,
+      "hashOil": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/edibles/0000000000EPWDVY4PD700000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2017-12-21 07:09:16",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-12-21 07:09:16",
+        "timezone": "UTC"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "total": 11937,
+      "count": 10,
+      "per_page": 10,
+      "current_page": 1,
+      "total_pages": 1194,
+      "links": {
+        "next": "https://www.cannabisreports.com/api/v1.0/edibles?page=2"
+      }
+    }
+  }
+}

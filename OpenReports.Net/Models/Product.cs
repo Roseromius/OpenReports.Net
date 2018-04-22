@@ -5,7 +5,7 @@ using System.Text;
 
 namespace OpenReports.Net
 {
-    public class Flower: IModel
+    public class Product : IModel
     {
         [JsonProperty(PropertyName = "name")]
         public string Name { get; set; }
@@ -45,6 +45,12 @@ namespace OpenReports.Net
 
         [JsonProperty(PropertyName = "cbd")]
         public string CBD { get; set; }
+
+        [JsonProperty(PropertyName = "cannabis")]
+        public string Cannabis { get; set; }
+
+        [JsonProperty(PropertyName = "hashOil")]
+        public string HashOil { get; set; }
 
         [JsonProperty(PropertyName = "reviews")]
         public ObjectsLink Reviews { get; set; }

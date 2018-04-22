@@ -5,7 +5,7 @@ using System.Text;
 
 namespace OpenReports.Net
 {
-    class Extract
+    public class Extract : IModel
     {
         [JsonProperty(PropertyName = "name")]
         public string Name { get; set; }
@@ -35,16 +35,16 @@ namespace OpenReports.Net
         public string Type { get; set; }
 
         [JsonProperty(PropertyName = "strain")]
-        public Strain Strain { get; set; }
+        public ObjectLink Strain { get; set; }
 
         [JsonProperty(PropertyName = "labTest")]
-        public bool LabTest { get; set; }
+        public string LabTest { get; set; }
 
         [JsonProperty(PropertyName = "thc")]
-        public object THC { get; set; }
+        public string THC { get; set; }
 
         [JsonProperty(PropertyName = "cbd")]
-        public bool CBD { get; set; }
+        public string CBD { get; set; }
 
         [JsonProperty(PropertyName = "reviews")]
         public ObjectsLink Reviews { get; set; }
@@ -54,5 +54,25 @@ namespace OpenReports.Net
 
         [JsonProperty(PropertyName = "updatedAt")]
         public TimeStamp UpdatedAt { get; set; }
+
+        public bool IsValid()
+        {
+            if (String.IsNullOrEmpty(Name))
+            {
+                return false;
+            }
+
+            if (String.IsNullOrEmpty(UCPC))
+            {
+                return false;
+            }
+
+            if (String.IsNullOrEmpty(Link))
+            {
+                return false;
+            }
+
+            return true;
+        }
     }
 }

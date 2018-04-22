@@ -163,8 +163,14 @@ namespace OpenReports.Net
                     return "strain";
                 case SecondaryObjectType.Flowers:
                     return "flowers";
+                case SecondaryObjectType.Extract:
+                    return "extracts";
+                case SecondaryObjectType.Edible:
+                    return "edibles";
                 case SecondaryObjectType.Producer:
                     return "producer";
+                case SecondaryObjectType.Product:
+                    return "products";
                 case SecondaryObjectType.SeedCompany:
                     return "seedCompany";
                 case SecondaryObjectType.Batch:
@@ -194,7 +200,7 @@ namespace OpenReports.Net
                 case SecondaryObjectType.WaterHash:
                     break;
                 case SecondaryObjectType.Kief:
-                    break;
+                    return "kief";
                 case SecondaryObjectType.Wax:
                     break;
                 case SecondaryObjectType.Crumble:
@@ -202,19 +208,19 @@ namespace OpenReports.Net
                 case SecondaryObjectType.Honeycomb:
                     break;
                 case SecondaryObjectType.Shatter:
-                    break;
+                    return "shatter";
                 case SecondaryObjectType.VaporizerDisposable:
                     break;
                 case SecondaryObjectType.VaporizerCartridge:
                     break;
                 case SecondaryObjectType.BakedGoods:
-                    break;
+                    return "baked-good";
                 case SecondaryObjectType.Candy:
                     break;
                 case SecondaryObjectType.Treat:
                     break;
                 case SecondaryObjectType.Chocolate:
-                    break;
+                    return "chocolate";
                 case SecondaryObjectType.Snack:
                     break;
                 case SecondaryObjectType.Beverage:
@@ -240,7 +246,7 @@ namespace OpenReports.Net
                 case SecondaryObjectType.SkinCare:
                     break;
                 case SecondaryObjectType.PreRoll:
-                    break;
+                    return "pre-roll";
                 case SecondaryObjectType.LipBalm:
                     break;
                 case SecondaryObjectType.MassageOil:

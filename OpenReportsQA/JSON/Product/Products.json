@@ -1,0 +1,362 @@
+﻿{
+  "data": [
+    {
+      "name": "Pre-Roll Package - Pre-roll",
+      "ucpc": "0000000000PMRMUGQXDN00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/products/0000000000PMRMUGQXDN00000",
+      "qr": "https://www.cannabisreports.com/product-reports/qr-code/the-humboldt-cure/pre-roll-package.png",
+      "barcode": "https://www.cannabisreports.com/product-reports/barcode/the-humboldt-cure/pre-roll-package.png",
+      "url": "https://www.cannabisreports.com/product-reports/the-humboldt-cure/pre-roll-package",
+      "image": "https://www.cannabisreports.com/images/strains/no_image.png",
+      "producer": {
+        "name": "The Humboldt Cure",
+        "ucpc": "0000000000PMRMU0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000PMRMU0000000000"
+      },
+      "type": "pre-roll",
+      "strain": [],
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "cannabis": false,
+      "hashOil": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/products/0000000000PMRMUGQXDN00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2016-11-07 06:33:46",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2016-11-07 06:33:50",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "ounce of cannabis",
+      "ucpc": "0000000000PMRMUEWUM400000",
+      "link": "https://www.cannabisreports.com/api/v1.0/products/0000000000PMRMUEWUM400000",
+      "qr": "https://www.cannabisreports.com/product-reports/qr-code/the-humboldt-cure/ounce-of-cannabis.png",
+      "barcode": "https://www.cannabisreports.com/product-reports/barcode/the-humboldt-cure/ounce-of-cannabis.png",
+      "url": "https://www.cannabisreports.com/product-reports/the-humboldt-cure/ounce-of-cannabis",
+      "image": "https://www.cannabisreports.com/images/products/7/full_7cfb5765a9cee65f853b1fbdf89328bcad51561c.jpg",
+      "producer": {
+        "name": "The Humboldt Cure",
+        "ucpc": "0000000000PMRMU0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000PMRMU0000000000"
+      },
+      "type": "ounce of cannabis",
+      "strain": [],
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "cannabis": "28,000mg",
+      "hashOil": false,
+      "reviews": {
+        "count": 1,
+        "link": "https://www.cannabisreports.com/api/v1.0/products/0000000000PMRMUEWUM400000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2016-11-07 06:29:17",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2016-11-07 06:29:21",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "1/2 ounce of cannabis",
+      "ucpc": "0000000000PMRMUT29WL00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/products/0000000000PMRMUT29WL00000",
+      "qr": "https://www.cannabisreports.com/product-reports/qr-code/the-humboldt-cure/12-ounce-of-cannabis.png",
+      "barcode": "https://www.cannabisreports.com/product-reports/barcode/the-humboldt-cure/12-ounce-of-cannabis.png",
+      "url": "https://www.cannabisreports.com/product-reports/the-humboldt-cure/12-ounce-of-cannabis",
+      "image": "https://www.cannabisreports.com/images/products/7/full_7cfb5765a9cee65f853b1fbdf89328bcad51561c.jpg",
+      "producer": {
+        "name": "The Humboldt Cure",
+        "ucpc": "0000000000PMRMU0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000PMRMU0000000000"
+      },
+      "type": "1/2 ounce of cannabis",
+      "strain": [],
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "cannabis": "14,000mg",
+      "hashOil": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/products/0000000000PMRMUT29WL00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2016-11-07 06:27:33",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2016-11-07 06:27:35",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "1/4 ounce of cannabis",
+      "ucpc": "0000000000PMRMUFJFCJ00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/products/0000000000PMRMUFJFCJ00000",
+      "qr": "https://www.cannabisreports.com/product-reports/qr-code/the-humboldt-cure/14-ounce-of-cannabis.png",
+      "barcode": "https://www.cannabisreports.com/product-reports/barcode/the-humboldt-cure/14-ounce-of-cannabis.png",
+      "url": "https://www.cannabisreports.com/product-reports/the-humboldt-cure/14-ounce-of-cannabis",
+      "image": "https://www.cannabisreports.com/images/products/7/full_7cfb5765a9cee65f853b1fbdf89328bcad51561c.jpg",
+      "producer": {
+        "name": "The Humboldt Cure",
+        "ucpc": "0000000000PMRMU0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000PMRMU0000000000"
+      },
+      "type": "1/4 ounce of cannabis",
+      "strain": [],
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "cannabis": "7,000mg",
+      "hashOil": false,
+      "reviews": {
+        "count": 1,
+        "link": "https://www.cannabisreports.com/api/v1.0/products/0000000000PMRMUFJFCJ00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2016-11-07 06:22:49",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2016-11-07 06:22:51",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "1/8",
+      "ucpc": "0000000000PMRMUNVGYR00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/products/0000000000PMRMUNVGYR00000",
+      "qr": "https://www.cannabisreports.com/product-reports/qr-code/the-humboldt-cure/18.png",
+      "barcode": "https://www.cannabisreports.com/product-reports/barcode/the-humboldt-cure/18.png",
+      "url": "https://www.cannabisreports.com/product-reports/the-humboldt-cure/18",
+      "image": "https://www.cannabisreports.com/images/products/7/full_7cfb5765a9cee65f853b1fbdf89328bcad51561c.jpg",
+      "producer": {
+        "name": "The Humboldt Cure",
+        "ucpc": "0000000000PMRMU0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000PMRMU0000000000"
+      },
+      "type": "1/8 of cannabis",
+      "strain": [],
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "cannabis": "3,500mg",
+      "hashOil": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/products/0000000000PMRMUNVGYR00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2016-11-07 06:17:04",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2016-11-07 06:18:15",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Nectar Box-The Humboldt Cure",
+      "ucpc": "0000000000PMRMUGQHYL00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/products/0000000000PMRMUGQHYL00000",
+      "qr": "https://www.cannabisreports.com/product-reports/qr-code/the-humboldt-cure/nectar-box-the-humboldt-cure.png",
+      "barcode": "https://www.cannabisreports.com/product-reports/barcode/the-humboldt-cure/nectar-box-the-humboldt-cure.png",
+      "url": "https://www.cannabisreports.com/product-reports/the-humboldt-cure/nectar-box-the-humboldt-cure",
+      "image": "https://www.cannabisreports.com/images/strains/no_image.png",
+      "producer": {
+        "name": "The Humboldt Cure",
+        "ucpc": "0000000000PMRMU0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000PMRMU0000000000"
+      },
+      "type": "Tin package with clear and flower",
+      "strain": [],
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "cannabis": false,
+      "hashOil": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/products/0000000000PMRMUGQHYL00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2016-11-07 06:14:00",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2016-11-07 06:14:02",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "The Humboldt Cure  - Pre-roll",
+      "ucpc": "AMFNCFEMWWPMRMU3D2DQ00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/products/AMFNCFEMWWPMRMU3D2DQ00000",
+      "qr": "https://www.cannabisreports.com/product-reports/qr-code/the-humboldt-cure/the-humboldt-cure.png",
+      "barcode": "https://www.cannabisreports.com/product-reports/barcode/the-humboldt-cure/the-humboldt-cure.png",
+      "url": "https://www.cannabisreports.com/product-reports/the-humboldt-cure/the-humboldt-cure",
+      "image": "https://www.cannabisreports.com/images/strains/no_image.png",
+      "producer": {
+        "name": "The Humboldt Cure",
+        "ucpc": "0000000000PMRMU0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000PMRMU0000000000"
+      },
+      "type": "pre-roll",
+      "strain": {
+        "name": "Sour Kush (Reserva Privada CO)",
+        "ucpc": "AMFNCFEMWW000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/AMFNCFEMWW000000000000000"
+      },
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "cannabis": false,
+      "hashOil": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/products/AMFNCFEMWWPMRMU3D2DQ00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2016-10-14 06:20:43",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2016-10-14 06:20:46",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "CBD-Rich Recovery Salve - 5ml Sample",
+      "ucpc": "9XVU7XPL4JKGVM2JWJ9G00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/products/9XVU7XPL4JKGVM2JWJ9G00000",
+      "qr": "https://www.cannabisreports.com/product-reports/qr-code/turtle-bud/cbd-rich-recovery-salve-5ml-sample.png",
+      "barcode": "https://www.cannabisreports.com/product-reports/barcode/turtle-bud/cbd-rich-recovery-salve-5ml-sample.png",
+      "url": "https://www.cannabisreports.com/product-reports/turtle-bud/cbd-rich-recovery-salve-5ml-sample",
+      "image": "https://www.cannabisreports.com/images/products/d/full_dc8140ea289a8c4a7e33edde59485600752af369.jpg",
+      "producer": {
+        "name": "Turtle Bud",
+        "ucpc": "0000000000KGVM20000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000KGVM20000000000"
+      },
+      "type": "topical",
+      "strain": {
+        "name": "ACDC (AC/DC)",
+        "ucpc": "9XVU7XPL4J000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU7XPL4J000000000000000"
+      },
+      "labTest": false,
+      "thc": "5mg",
+      "cbd": "35mg",
+      "cannabis": false,
+      "hashOil": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/products/9XVU7XPL4JKGVM2JWJ9G00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2016-06-28 17:21:35",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2016-09-08 17:30:59",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "CBD-Rich Recovery Salve",
+      "ucpc": "9XVU7XPL4JKGVM2FP9N600000",
+      "link": "https://www.cannabisreports.com/api/v1.0/products/9XVU7XPL4JKGVM2FP9N600000",
+      "qr": "https://www.cannabisreports.com/product-reports/qr-code/turtle-bud/cbd-rich-recovery-salve.png",
+      "barcode": "https://www.cannabisreports.com/product-reports/barcode/turtle-bud/cbd-rich-recovery-salve.png",
+      "url": "https://www.cannabisreports.com/product-reports/turtle-bud/cbd-rich-recovery-salve",
+      "image": "https://www.cannabisreports.com/images/products/b/full_b2f757420121942177c702450685bd7f22c23c22.jpg",
+      "producer": {
+        "name": "Turtle Bud",
+        "ucpc": "0000000000KGVM20000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000KGVM20000000000"
+      },
+      "type": "topical",
+      "strain": {
+        "name": "ACDC (AC/DC)",
+        "ucpc": "9XVU7XPL4J000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU7XPL4J000000000000000"
+      },
+      "labTest": false,
+      "thc": "30mg",
+      "cbd": "210mg",
+      "cannabis": false,
+      "hashOil": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/products/9XVU7XPL4JKGVM2FP9N600000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2016-06-28 17:19:19",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2016-09-08 17:30:59",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Lift Tickets Gucci OG Rosin",
+      "ucpc": "9XVU7T6LG6YGL7RRTHPM00000",
+      "link": "https://www.cannabisreports.com/api/v1.0/products/9XVU7T6LG6YGL7RRTHPM00000",
+      "qr": "https://www.cannabisreports.com/product-reports/qr-code/lift-tickets/lift-tickets-gucci-og-rosin.png",
+      "barcode": "https://www.cannabisreports.com/product-reports/barcode/lift-tickets/lift-tickets-gucci-og-rosin.png",
+      "url": "https://www.cannabisreports.com/product-reports/lift-tickets/lift-tickets-gucci-og-rosin",
+      "image": "https://www.cannabisreports.com/images/strains/no_image.png",
+      "producer": {
+        "name": "Lift Tickets",
+        "ucpc": "0000000000YGL7R0000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/producers/0000000000YGL7R0000000000"
+      },
+      "type": "Rolling Paper",
+      "strain": {
+        "name": "Gucci OG",
+        "ucpc": "9XVU7T6LG6000000000000000",
+        "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU7T6LG6000000000000000"
+      },
+      "labTest": false,
+      "thc": false,
+      "cbd": false,
+      "cannabis": false,
+      "hashOil": false,
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/products/9XVU7T6LG6YGL7RRTHPM00000/reviews"
+      },
+      "createdAt": {
+        "datetime": "2016-06-24 23:43:08",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2016-09-08 17:30:59",
+        "timezone": "UTC"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "total": 1247,
+      "count": 10,
+      "per_page": 10,
+      "current_page": 1,
+      "total_pages": 125,
+      "links": {
+        "next": "https://www.cannabisreports.com/api/v1.0/products?page=2"
+      }
+    }
+  }
+}

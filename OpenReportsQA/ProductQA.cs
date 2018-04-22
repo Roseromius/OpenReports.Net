@@ -10,15 +10,15 @@ using System.Text;
 namespace OpenReportsQA
 {
     [TestClass]
-    public class FlowerQA
+    public class ProductQA
     {
         [TestMethod]
-        public void FlowerModelTest()
+        public void ProductModelTest()
         {
             //ARRANGE
             string json = null;
-            string path = "JSON/Flower/Flowers.json";
-            var flowers = new List<Flower>();
+            string path = "JSON/Product/Products.json";
+            var products = new List<Product>();
 
 
             //ACT
@@ -33,119 +33,119 @@ namespace OpenReportsQA
 
             //Debug.WriteLine(rawData["data"].ToString());
 
-            foreach (JToken flower in rawData["data"].Children())
+            foreach (JToken product in rawData["data"].Children())
             {
-                Flower tempFlower = flower.ToObject<Flower>();
-                Console.WriteLine("Flower Added: " + tempFlower.Name);
-                flowers.Add(tempFlower);
+                Product tempProduct = product.ToObject<Product>();
+                Console.WriteLine("Product Added: " + tempProduct.Name);
+                products.Add(tempProduct);
             }
 
             //ASSERT
             Assert.IsNotNull(json);
             Assert.IsTrue(json != "");
-            Assert.IsTrue(flowers.Count > 0); //*/
+            Assert.IsTrue(products.Count > 0); //*/
 
-            foreach (Flower flower in flowers)
+            foreach (Product product in products)
             {
-                Assert.IsTrue(flower.IsValid());
+                Assert.IsTrue(product.IsValid());
             }
 
             //OUTPUT
-            Console.WriteLine("Flower Count: " + flowers.Count);
+            Console.WriteLine("Product Count: " + products.Count);
 
         }
 
         [TestMethod]
-        public void FlowerRequestTest()
+        public void ProductRequestTest()
         {
             //ARRANGE
-            var flowers = new List<Flower>();
+            var products = new List<Product>();
 
             //ACT
-            flowers = (List<Flower>)FlowerController.GetFlowers();
+            products = (List<Product>)ProductController.GetProducts();
 
             //ASSERT
-            Assert.IsNotNull(flowers);
-            Assert.IsTrue(flowers.Count > 0);
+            Assert.IsNotNull(products);
+            Assert.IsTrue(products.Count > 0);
 
             //OUTPUT
-            foreach (Flower flower in flowers)
+            foreach (Product product in products)
             {
-                Console.WriteLine("Flower: " + flower.Name);
+                Console.WriteLine("Product: " + product.Name);
             }
 
-            Console.WriteLine("Flower Count: " + flowers.Count);
+            Console.WriteLine("Product Count: " + products.Count);
         }
 
         [TestMethod]
-        public void FlowersByTypeTest()
+        public void ProductByTypeTest()
         {
             //ARRANGE
-            var flowers = new List<Flower>();
+            var products = new List<Product>();
 
             //ACT
-            flowers = (List<Flower>)FlowerController.GetFlowerByType(SecondaryObjectType.Seeds);
+            products = (List<Product>)ProductController.GetProductByType(SecondaryObjectType.PreRoll);
 
             //ASSERT
-            Assert.IsNotNull(flowers);
-            Assert.IsTrue(flowers.Count > 0);
+            Assert.IsNotNull(products);
+            Assert.IsTrue(products.Count > 0);
 
             //OUTPUT
-            foreach (Flower flower in flowers)
+            foreach (Product product in products)
             {
-                Console.WriteLine("Flower: " + flower.Name);
-                Console.WriteLine("THC: " + flower.THC);
-                Console.WriteLine("CBD: " + flower.CBD);
+                Console.WriteLine("Product: " + product.Name);
+                Console.WriteLine("THC: " + product.THC);
+                Console.WriteLine("CBD: " + product.CBD);
                 Console.WriteLine("---------------------");
             }
 
-            Console.WriteLine("Flower Count: " + flowers.Count);
+            Console.WriteLine("Product Count: " + products.Count);
         }
 
         [TestMethod]
-        public void SingleFlowerRequestTest()
+        public void SingleProductRequestTest()
         {
             //ARRANGE
-            var flower = new Flower();
+            var product = new Product();
 
             //ACT
-            flower = (Flower)FlowerController.GetFlower("9XVU7FNY7ZMW2KZQTVNR00000");
+            product = ProductController.GetProduct("9XVU7NK3PEGLAJ372X4F00000");
 
             //ASSERT
-            Assert.IsNotNull(flower);
-            Assert.IsTrue(flower.IsValid());
-            Assert.IsTrue(flower.Name == "Key Lime Pie - Flowers");
+            Assert.IsNotNull(product);
+            Assert.IsTrue(product.IsValid());
+            Assert.IsTrue(product.Name == "Cherry Kola - Pre-roll");
 
             //OUTPUT
-            Console.WriteLine("Flower: " + flower.Name);
+            Console.WriteLine("Product: " + product.Name);
         }
 
         [TestMethod]
-        public void FlowerUserTest()
+        public void ProductUserTest()
         {
             //ARRANGE
             var user = new User();
 
             //ACT
-            user = (User)FlowerController.GetFlowerUser("AHZ7H4N6467FVUDY3DAY00000");
+            user = ProductController.GetProductUser("9XVU7NK3PEGLAJ372X4F00000");
 
             //ASSERT
             Assert.IsNotNull(user); ;
             Assert.IsTrue(user.IsValid());
-            Assert.IsTrue(user.Nickname == "jbcrockett");
+            Assert.IsTrue(user.Nickname == "Shelly");
 
             //OUTPUT
             Console.WriteLine("Name: " + user.Nickname);
         }
 
         [TestMethod]
-        public void FlowerReviewsTest()
+        public void ProductReviewsTest()
         {
             //ARRANGE
             var reviews = new List<Review>();
 
             //ACT
-            reviews = (List<Review>)FlowerController.GetFlowerReviews("AHZ7H4N6467FVUDY3DAY00000", 1);
+            reviews = (List<Review>)ProductController.GetProductReviews("0000000000C6FZLK664400000", 1);
 
             //ASSERT
             Assert.IsNotNull(reviews);
@@ -168,13 +168,13 @@ namespace OpenReportsQA
         }
 
         [TestMethod]
-        public void FlowerEffectsAndFlavorsTest()
+        public void ProductEffectsAndFlavorsTest()
         {
             //ARRANGE
             var effectsAndFlavors = new EffectsAndFlavors();
 
             //ACT
-            effectsAndFlavors = (EffectsAndFlavors)FlowerController.GetFlowerEffectsFlavors("AHZ7H4N6467FVUDY3DAY00000");
+            effectsAndFlavors = ProductController.GetProductEffectsFlavors("0000000000C6FZLK664400000");
 
             //ASSERT
             Assert.IsNotNull(effectsAndFlavors);
@@ -188,13 +188,13 @@ namespace OpenReportsQA
         }
 
         [TestMethod]
-        public void FlowerProducerTest()
+        public void ProductProducerTest()
         {
             //ARRANGE
             var producer = new Producer();
 
             //ACT
-            producer = (Producer)FlowerController.GetFlowerProducer("AHZ7H4N6467FVUDY3DAY00000");
+            producer = ProductController.GetProductProducer("0000000000C6FZLK664400000");
 
             //ASSERT
             Assert.IsNotNull(producer);
@@ -206,13 +206,13 @@ namespace OpenReportsQA
         }
 
         [TestMethod]
-        public void FlowerStrainTest()
+        public void ProductStrainTest()
         {
             //ARRANGE
             var strain = new Strain();
 
             //ACT
-            strain = (Strain)FlowerController.GetFlowerStrain("AHZ7H4N6467FVUDY3DAY00000");
+            strain = ProductController.GetProductStrain("9XVU7NK3PEGLAJ372X4F00000");
 
             //ASSERT
             Assert.IsNotNull(strain);
@@ -225,13 +225,19 @@ namespace OpenReportsQA
         }
 
         [TestMethod]
-        public void FlowerAvailabilityTest()
+        public void ProductAvailabilityTest()
         {
             //ARRANGE
             var menuItemSummaries = new List<MenuItemSummary>();
 
             //ACT
-            menuItemSummaries = (List<MenuItemSummary>)FlowerController.GetFlowerAvailability("YYRZDWGVU22WJVPGDJ7J00000", 37.7749295m, -122.4194155m, 10);
+            menuItemSummaries = (List<MenuItemSummary>)ProductController.GetProductAvailability
+                (
+                    "9XVU7NK3PEGLAJ372X4F00000",
+                    37.7749295m,
+                    -122.4194155m,
+                    25
+                );
 
             //ASSERT
             Assert.IsNotNull(menuItemSummaries);
@@ -255,5 +261,6 @@ namespace OpenReportsQA
             Console.WriteLine("Summary Count: " + menuItemSummaries.Count);
 
         }
+
     }
 }

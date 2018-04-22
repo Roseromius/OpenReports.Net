@@ -10,15 +10,15 @@ using System.Text;
 namespace OpenReportsQA
 {
     [TestClass]
-    public class FlowerQA
+    public class EdiblesQA
     {
         [TestMethod]
-        public void FlowerModelTest()
+        public void EdibleModelTest()
         {
             //ARRANGE
             string json = null;
-            string path = "JSON/Flower/Flowers.json";
-            var flowers = new List<Flower>();
+            string path = "JSON/Edible/Edibles.json";
+            var edibles = new List<Edible>();
 
 
             //ACT
@@ -33,119 +33,119 @@ namespace OpenReportsQA
 
             //Debug.WriteLine(rawData["data"].ToString());
 
-            foreach (JToken flower in rawData["data"].Children())
+            foreach (JToken edible in rawData["data"].Children())
             {
-                Flower tempFlower = flower.ToObject<Flower>();
-                Console.WriteLine("Flower Added: " + tempFlower.Name);
-                flowers.Add(tempFlower);
+                Edible tempEdible = edible.ToObject<Edible>();
+                Console.WriteLine("Edible Added: " + tempEdible.Name);
+                edibles.Add(tempEdible);
             }
 
             //ASSERT
             Assert.IsNotNull(json);
             Assert.IsTrue(json != "");
-            Assert.IsTrue(flowers.Count > 0); //*/
+            Assert.IsTrue(edibles.Count > 0); //*/
 
-            foreach (Flower flower in flowers)
+            foreach (Edible edible in edibles)
             {
-                Assert.IsTrue(flower.IsValid());
+                Assert.IsTrue(edible.IsValid());
             }
 
             //OUTPUT
-            Console.WriteLine("Flower Count: " + flowers.Count);
+            Console.WriteLine("Edible Count: " + edibles.Count);
 
         }
 
         [TestMethod]
-        public void FlowerRequestTest()
+        public void EdibleRequestTest()
         {
             //ARRANGE
-            var flowers = new List<Flower>();
+            var edibles = new List<Edible>();
 
             //ACT
-            flowers = (List<Flower>)FlowerController.GetFlowers();
+            edibles = (List<Edible>)EdibleController.GetEdibles();
 
             //ASSERT
-            Assert.IsNotNull(flowers);
-            Assert.IsTrue(flowers.Count > 0);
+            Assert.IsNotNull(edibles);
+            Assert.IsTrue(edibles.Count > 0);
 
             //OUTPUT
-            foreach (Flower flower in flowers)
+            foreach (Edible edible in edibles)
             {
-                Console.WriteLine("Flower: " + flower.Name);
+                Console.WriteLine("Edible: " + edible.Name);
             }
 
-            Console.WriteLine("Flower Count: " + flowers.Count);
+            Console.WriteLine("Edible Count: " + edibles.Count);
         }
 
         [TestMethod]
-        public void FlowersByTypeTest()
+        public void EdibleByTypeTest()
         {
             //ARRANGE
-            var flowers = new List<Flower>();
+            var edibles = new List<Edible>();
 
             //ACT
-            flowers = (List<Flower>)FlowerController.GetFlowerByType(SecondaryObjectType.Seeds);
+            edibles = (List<Edible>)EdibleController.GetEdibleByType(SecondaryObjectType.Chocolate);
 
             //ASSERT
-            Assert.IsNotNull(flowers);
-            Assert.IsTrue(flowers.Count > 0);
+            Assert.IsNotNull(edibles);
+            Assert.IsTrue(edibles.Count > 0);
 
             //OUTPUT
-            foreach (Flower flower in flowers)
+            foreach (Edible edible in edibles)
             {
-                Console.WriteLine("Flower: " + flower.Name);
-                Console.WriteLine("THC: " + flower.THC);
-                Console.WriteLine("CBD: " + flower.CBD);
+                Console.WriteLine("Edible: " + edible.Name);
+                Console.WriteLine("THC: " + edible.THC);
+                Console.WriteLine("CBD: " + edible.CBD);
                 Console.WriteLine("---------------------");
             }
 
-            Console.WriteLine("Flower Count: " + flowers.Count);
+            Console.WriteLine("Edible Count: " + edibles.Count);
         }
 
         [TestMethod]
-        public void SingleFlowerRequestTest()
+        public void SingleEdibleRequestTest()
         {
             //ARRANGE
-            var flower = new Flower();
+            var edible = new Edible();
 
             //ACT
-            flower = (Flower)FlowerController.GetFlower("9XVU7FNY7ZMW2KZQTVNR00000");
+            edible = EdibleController.GetEdible("4KXM32V9YFC3G2EUNWP400000");
 
             //ASSERT
-            Assert.IsNotNull(flower);
-            Assert.IsTrue(flower.IsValid());
-            Assert.IsTrue(flower.Name == "Key Lime Pie - Flowers");
+            Assert.IsNotNull(edible);
+            Assert.IsTrue(edible.IsValid());
+            Assert.IsTrue(edible.Name == "Soda - Girl Scout Cookies and Cream");
 
             //OUTPUT
-            Console.WriteLine("Flower: " + flower.Name);
+            Console.WriteLine("Edible: " + edible.Name);
         }
 
         [TestMethod]
-        public void FlowerUserTest()
+        public void EdibleUserTest()
         {
             //ARRANGE
             var user = new User();
 
             //ACT
-            user = (User)FlowerController.GetFlowerUser("AHZ7H4N6467FVUDY3DAY00000");
+            user = EdibleController.GetEdibleUser("4KXM32V9YFC3G2EUNWP400000");
 
             //ASSERT
             Assert.IsNotNull(user); ;
             Assert.IsTrue(user.IsValid());
-            Assert.IsTrue(user.Nickname == "jbcrockett");
+            Assert.IsTrue(user.Nickname == "Untamed Dame");
 
             //OUTPUT
             Console.WriteLine("Name: " + user.Nickname);
         }
 
         [TestMethod]
-        public void FlowerReviewsTest()
+        public void EdibleReviewsTest()
         {
             //ARRANGE
             var reviews = new List<Review>();
 
             //ACT
-            reviews = (List<Review>)FlowerController.GetFlowerReviews("AHZ7H4N6467FVUDY3DAY00000", 1);
+            reviews = (List<Review>)EdibleController.GetEdibleReviews("0000000000L6M7ENLJVX00000", 1);
 
             //ASSERT
             Assert.IsNotNull(reviews);
@@ -168,13 +168,13 @@ namespace OpenReportsQA
         }
 
         [TestMethod]
-        public void FlowerEffectsAndFlavorsTest()
+        public void EdibleEffectsAndFlavorsTest()
         {
             //ARRANGE
             var effectsAndFlavors = new EffectsAndFlavors();
 
             //ACT
-            effectsAndFlavors = (EffectsAndFlavors)FlowerController.GetFlowerEffectsFlavors("AHZ7H4N6467FVUDY3DAY00000");
+            effectsAndFlavors = EdibleController.GetEdibleEffectsFlavors("0000000000L6M7ENLJVX00000");
 
             //ASSERT
             Assert.IsNotNull(effectsAndFlavors);
@@ -188,13 +188,13 @@ namespace OpenReportsQA
         }
 
         [TestMethod]
-        public void FlowerProducerTest()
+        public void EdibleProducerTest()
         {
             //ARRANGE
             var producer = new Producer();
 
             //ACT
-            producer = (Producer)FlowerController.GetFlowerProducer("AHZ7H4N6467FVUDY3DAY00000");
+            producer = EdibleController.GetEdibleProducer("0000000000L6M7ENLJVX00000");
 
             //ASSERT
             Assert.IsNotNull(producer);
@@ -206,13 +206,13 @@ namespace OpenReportsQA
         }
 
         [TestMethod]
-        public void FlowerStrainTest()
+        public void EdibleStrainTest()
         {
             //ARRANGE
             var strain = new Strain();
 
             //ACT
-            strain = (Strain)FlowerController.GetFlowerStrain("AHZ7H4N6467FVUDY3DAY00000");
+            strain = EdibleController.GetEdibleStrain("4KXM32V9YFC3G2EUNWP400000");
 
             //ASSERT
             Assert.IsNotNull(strain);
@@ -225,13 +225,19 @@ namespace OpenReportsQA
         }
 
         [TestMethod]
-        public void FlowerAvailabilityTest()
+        public void EdibleAvailabilityTest()
         {
             //ARRANGE
             var menuItemSummaries = new List<MenuItemSummary>();
 
             //ACT
-            menuItemSummaries = (List<MenuItemSummary>)FlowerController.GetFlowerAvailability("YYRZDWGVU22WJVPGDJ7J00000", 37.7749295m, -122.4194155m, 10);
+            menuItemSummaries = (List<MenuItemSummary>)EdibleController.GetEdibleAvailability
+                (
+                    "4KXM32V9YFC3G2EUNWP400000",
+                    37.7749295m,
+                    -122.4194155m,
+                    25
+                );
 
             //ASSERT
             Assert.IsNotNull(menuItemSummaries);

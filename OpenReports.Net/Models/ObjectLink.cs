@@ -5,12 +5,13 @@ using System.Text;
 
 namespace OpenReports.Net
 {
+    [JsonConverter(typeof(ObjectLinkSerializer))]
     public class ObjectLink
     {
         [JsonProperty(PropertyName = "name")]
         public string Name { get; private set; }
 
-        [JsonProperty(PropertyName = "names")]//INSTEAD OF A CONVERTER
+        [JsonProperty(PropertyName = "names")]//INSTEAD OF USING THE CONVERTER
         private string Names { set { Name = value; } }
 
         [JsonProperty(PropertyName = "ucpc")]
@@ -37,6 +38,18 @@ namespace OpenReports.Net
             }
 
             return true;
+        }
+
+        public ObjectLink()
+        {
+
+        }
+
+        public ObjectLink(string name, string ucpc, string link)
+        {
+            Name = name;
+            UCPC = ucpc;
+            Link = link;
         }
     }
 }
