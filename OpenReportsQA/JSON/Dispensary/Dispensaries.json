@@ -1,0 +1,506 @@
+﻿{
+  "data": [
+    {
+      "name": "Purple Charles",
+      "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/oakland/purple-charles",
+      "qr": "https://www.cannabisreports.com/dispensary-reports/ca/oakland/purple-charles/qr-code",
+      "url": "https://www.cannabisreports.com/dispensary-reports/ca/oakland/purple-charles",
+      "image": "https://www.cannabisreports.com",
+      "state": "CA",
+      "city": "Oakland",
+      "slug": "ca/oakland/purple-charles",
+      "lat": "37.767618",
+      "lng": "-122.2102836",
+      "address": {
+        "address1": "1200 50th Avenue",
+        "address2": "",
+        "zip": "94601"
+      },
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/oakland/purple-charles/reviews"
+      },
+      "strains": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/oakland/purple-charles/strains"
+      },
+      "flowers": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/oakland/purple-charles/flowers"
+      },
+      "extracts": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/oakland/purple-charles/extracts"
+      },
+      "edibles": {
+        "count": 1,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/oakland/purple-charles/edibles"
+      },
+      "products": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/oakland/purple-charles/products"
+      },
+      "createdAt": {
+        "datetime": "2017-06-21 19:23:11",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2018-01-11 11:58:39",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Vallejo Holistic Health Center",
+      "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/vallejo/vallejo-holistic-health-center",
+      "qr": "https://www.cannabisreports.com/dispensary-reports/ca/vallejo/vallejo-holistic-health-center/qr-code",
+      "url": "https://www.cannabisreports.com/dispensary-reports/ca/vallejo/vallejo-holistic-health-center",
+      "image": "https://www.cannabisreports.com",
+      "state": "CA",
+      "city": "Vallejo",
+      "slug": "ca/vallejo/vallejo-holistic-health-center",
+      "lat": "38.1096869",
+      "lng": "-122.2533931",
+      "address": {
+        "address1": "539 Tennessee St.",
+        "address2": "",
+        "zip": "94590"
+      },
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/vallejo/vallejo-holistic-health-center/reviews"
+      },
+      "strains": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/vallejo/vallejo-holistic-health-center/strains"
+      },
+      "flowers": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/vallejo/vallejo-holistic-health-center/flowers"
+      },
+      "extracts": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/vallejo/vallejo-holistic-health-center/extracts"
+      },
+      "edibles": {
+        "count": 4,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/vallejo/vallejo-holistic-health-center/edibles"
+      },
+      "products": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/vallejo/vallejo-holistic-health-center/products"
+      },
+      "createdAt": {
+        "datetime": "2017-06-21 19:17:22",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2018-01-11 11:58:43",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "420 Collective Delivery",
+      "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/concord/420-collective-delivery",
+      "qr": "https://www.cannabisreports.com/dispensary-reports/ca/concord/420-collective-delivery/qr-code",
+      "url": "https://www.cannabisreports.com/dispensary-reports/ca/concord/420-collective-delivery",
+      "image": "https://www.cannabisreports.com",
+      "state": "CA",
+      "city": "Concord",
+      "slug": "ca/concord/420-collective-delivery",
+      "lat": "37.982300",
+      "lng": "-122.036200",
+      "address": {
+        "address1": "",
+        "address2": "",
+        "zip": "94520"
+      },
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/concord/420-collective-delivery/reviews"
+      },
+      "strains": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/concord/420-collective-delivery/strains"
+      },
+      "flowers": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/concord/420-collective-delivery/flowers"
+      },
+      "extracts": {
+        "count": 7,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/concord/420-collective-delivery/extracts"
+      },
+      "edibles": {
+        "count": 6,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/concord/420-collective-delivery/edibles"
+      },
+      "products": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/concord/420-collective-delivery/products"
+      },
+      "createdAt": {
+        "datetime": "2017-02-09 21:01:40",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-02-09 21:01:40",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Bad Fish Delivery",
+      "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/san-mateo/bad-fish-delivery",
+      "qr": "https://www.cannabisreports.com/dispensary-reports/ca/san-mateo/bad-fish-delivery/qr-code",
+      "url": "https://www.cannabisreports.com/dispensary-reports/ca/san-mateo/bad-fish-delivery",
+      "image": "https://www.cannabisreports.com",
+      "state": "CA",
+      "city": "San Mateo",
+      "slug": "ca/san-mateo/bad-fish-delivery",
+      "lat": "37.539500",
+      "lng": "-122.299800",
+      "address": {
+        "address1": "",
+        "address2": "",
+        "zip": "94403"
+      },
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/san-mateo/bad-fish-delivery/reviews"
+      },
+      "strains": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/san-mateo/bad-fish-delivery/strains"
+      },
+      "flowers": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/san-mateo/bad-fish-delivery/flowers"
+      },
+      "extracts": {
+        "count": 8,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/san-mateo/bad-fish-delivery/extracts"
+      },
+      "edibles": {
+        "count": 15,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/san-mateo/bad-fish-delivery/edibles"
+      },
+      "products": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/san-mateo/bad-fish-delivery/products"
+      },
+      "createdAt": {
+        "datetime": "2017-02-06 20:46:41",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-02-06 20:46:41",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Doctor's Orders",
+      "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/stockton/doctors-orders",
+      "qr": "https://www.cannabisreports.com/dispensary-reports/ca/stockton/doctors-orders/qr-code",
+      "url": "https://www.cannabisreports.com/dispensary-reports/ca/stockton/doctors-orders",
+      "image": "https://www.cannabisreports.com",
+      "state": "CA",
+      "city": "Stockton",
+      "slug": "ca/stockton/doctors-orders",
+      "lat": "37.9880162",
+      "lng": "-121.3200641",
+      "address": {
+        "address1": "1222 Monaco Ct Ste #2",
+        "address2": "",
+        "zip": "95207"
+      },
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/stockton/doctors-orders/reviews"
+      },
+      "strains": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/stockton/doctors-orders/strains"
+      },
+      "flowers": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/stockton/doctors-orders/flowers"
+      },
+      "extracts": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/stockton/doctors-orders/extracts"
+      },
+      "edibles": {
+        "count": 9,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/stockton/doctors-orders/edibles"
+      },
+      "products": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/stockton/doctors-orders/products"
+      },
+      "createdAt": {
+        "datetime": "2017-02-06 20:38:48",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-10-17 09:21:24",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Mt. Diablo CARE Collective",
+      "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/concord/mt-diablo-care-collective",
+      "qr": "https://www.cannabisreports.com/dispensary-reports/ca/concord/mt-diablo-care-collective/qr-code",
+      "url": "https://www.cannabisreports.com/dispensary-reports/ca/concord/mt-diablo-care-collective",
+      "image": "https://www.cannabisreports.com",
+      "state": "CA",
+      "city": "Concord",
+      "slug": "ca/concord/mt-diablo-care-collective",
+      "lat": "37.9538109",
+      "lng": "-121.9643745",
+      "address": {
+        "address1": "",
+        "address2": "",
+        "zip": "94521"
+      },
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/concord/mt-diablo-care-collective/reviews"
+      },
+      "strains": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/concord/mt-diablo-care-collective/strains"
+      },
+      "flowers": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/concord/mt-diablo-care-collective/flowers"
+      },
+      "extracts": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/concord/mt-diablo-care-collective/extracts"
+      },
+      "edibles": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/concord/mt-diablo-care-collective/edibles"
+      },
+      "products": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/concord/mt-diablo-care-collective/products"
+      },
+      "createdAt": {
+        "datetime": "2016-12-08 23:51:42",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2016-12-08 23:53:44",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "HTP Group",
+      "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/vallejo/htp-group",
+      "qr": "https://www.cannabisreports.com/dispensary-reports/ca/vallejo/htp-group/qr-code",
+      "url": "https://www.cannabisreports.com/dispensary-reports/ca/vallejo/htp-group",
+      "image": "https://www.cannabisreports.com",
+      "state": "CA",
+      "city": "Vallejo",
+      "slug": "ca/vallejo/htp-group",
+      "lat": "38.1342432",
+      "lng": "-122.2597342",
+      "address": {
+        "address1": "1408 Enterprise St.",
+        "address2": "",
+        "zip": "94589"
+      },
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/vallejo/htp-group/reviews"
+      },
+      "strains": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/vallejo/htp-group/strains"
+      },
+      "flowers": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/vallejo/htp-group/flowers"
+      },
+      "extracts": {
+        "count": 6,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/vallejo/htp-group/extracts"
+      },
+      "edibles": {
+        "count": 9,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/vallejo/htp-group/edibles"
+      },
+      "products": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/vallejo/htp-group/products"
+      },
+      "createdAt": {
+        "datetime": "2016-12-08 00:14:44",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-06-16 20:51:49",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Cookies 415",
+      "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/san-francisco/cookies-415",
+      "qr": "https://www.cannabisreports.com/dispensary-reports/ca/san-francisco/cookies-415/qr-code",
+      "url": "https://www.cannabisreports.com/dispensary-reports/ca/san-francisco/cookies-415",
+      "image": "https://www.cannabisreports.com",
+      "state": "CA",
+      "city": "San Francisco",
+      "slug": "ca/san-francisco/cookies-415",
+      "lat": "37.7470161",
+      "lng": "-122.418717",
+      "address": {
+        "address1": "3139 Mission St.",
+        "address2": "",
+        "zip": "94110"
+      },
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/san-francisco/cookies-415/reviews"
+      },
+      "strains": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/san-francisco/cookies-415/strains"
+      },
+      "flowers": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/san-francisco/cookies-415/flowers"
+      },
+      "extracts": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/san-francisco/cookies-415/extracts"
+      },
+      "edibles": {
+        "count": 3,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/san-francisco/cookies-415/edibles"
+      },
+      "products": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/san-francisco/cookies-415/products"
+      },
+      "createdAt": {
+        "datetime": "2016-11-10 20:16:26",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2017-09-11 06:26:03",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Hrvst",
+      "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/petaluma/hrvst",
+      "qr": "https://www.cannabisreports.com/dispensary-reports/ca/petaluma/hrvst/qr-code",
+      "url": "https://www.cannabisreports.com/dispensary-reports/ca/petaluma/hrvst",
+      "image": "https://www.cannabisreports.com",
+      "state": "CA",
+      "city": "Petaluma",
+      "slug": "ca/petaluma/hrvst",
+      "lat": "38.250700",
+      "lng": "-122.615500",
+      "address": {
+        "address1": "",
+        "address2": "",
+        "zip": "94954"
+      },
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/petaluma/hrvst/reviews"
+      },
+      "strains": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/petaluma/hrvst/strains"
+      },
+      "flowers": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/petaluma/hrvst/flowers"
+      },
+      "extracts": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/petaluma/hrvst/extracts"
+      },
+      "edibles": {
+        "count": 5,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/petaluma/hrvst/edibles"
+      },
+      "products": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/petaluma/hrvst/products"
+      },
+      "createdAt": {
+        "datetime": "2016-11-10 20:09:44",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2016-11-10 20:09:44",
+        "timezone": "UTC"
+      }
+    },
+    {
+      "name": "Eva",
+      "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/santa-rosa/eva",
+      "qr": "https://www.cannabisreports.com/dispensary-reports/ca/santa-rosa/eva/qr-code",
+      "url": "https://www.cannabisreports.com/dispensary-reports/ca/santa-rosa/eva",
+      "image": "https://www.cannabisreports.com",
+      "state": "CA",
+      "city": "Santa Rosa",
+      "slug": "ca/santa-rosa/eva",
+      "lat": "38.443200",
+      "lng": "-122.754700",
+      "address": {
+        "address1": "",
+        "address2": "",
+        "zip": "95401"
+      },
+      "reviews": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/santa-rosa/eva/reviews"
+      },
+      "strains": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/santa-rosa/eva/strains"
+      },
+      "flowers": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/santa-rosa/eva/flowers"
+      },
+      "extracts": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/santa-rosa/eva/extracts"
+      },
+      "edibles": {
+        "count": 5,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/santa-rosa/eva/edibles"
+      },
+      "products": {
+        "count": 0,
+        "link": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/santa-rosa/eva/products"
+      },
+      "createdAt": {
+        "datetime": "2016-11-10 20:07:21",
+        "timezone": "UTC"
+      },
+      "updatedAt": {
+        "datetime": "2016-11-10 20:07:21",
+        "timezone": "UTC"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "total": 1122,
+      "count": 10,
+      "per_page": 10,
+      "current_page": 1,
+      "total_pages": 113,
+      "links": {
+        "next": "https://www.cannabisreports.com/api/v1.0/dispensaries?page=2"
+      }
+    }
+  }
+}

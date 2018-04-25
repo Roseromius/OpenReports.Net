@@ -1,0 +1,556 @@
+﻿{
+    "data": [
+        {
+            "name": "StarDawg - Flowers",
+            "type": "flower",
+            "item": {
+                "name": "StarDawg - Flowers",
+                "ucpc": "QTDQHZMTNL2WJVPPQPH900000",
+                "link": "https://www.cannabisreports.com/api/v1.0/flowers/QTDQHZMTNL2WJVPPQPH900000",
+                "qr": "https://www.cannabisreports.com/flower-reports/qr-code/unknown-producer/top-dawg-seeds/star-dawg/flowers.png",
+                "barcode": "https://www.cannabisreports.com/flower-reports/barcode/unknown-producer/top-dawg-seeds/star-dawg/flowers.png",
+                "url": "https://www.cannabisreports.com/flower-reports/unknown-producer/top-dawg-seeds/star-dawg/flowers",
+                "image": "https://www.cannabisreports.com/images/strains/5/full_5bb577f25eae968c0e88d5e297e50c84b68ff38b.jpg",
+                "producer": {
+                    "name": "Unknown Producer",
+                    "ucpc": "00000000002WJVP0000000000",
+                    "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000002WJVP0000000000"
+                },
+                "type": "flowers",
+                "strain": {
+                    "name": "StarDawg",
+                    "ucpc": "QTDQHZMTNL000000000000000",
+                    "link": "https://www.cannabisreports.com/api/v1.0/strains/QTDQHZMTNL000000000000000"
+                },
+                "labTest": false,
+                "thc": false,
+                "cbd": false,
+                "reviews": {
+                    "count": 0,
+                    "link": "https://www.cannabisreports.com/api/v1.0/flowers/QTDQHZMTNL2WJVPPQPH900000/reviews"
+                },
+              "createdAt": {
+                "datetime": "2016-02-12 04:56:11",
+                "timezone": "UTC"
+              },
+                "updatedAt": {
+                    "datetime": "2016-09-08 17:30:04",
+                    "timezone": "UTC"
+                }
+            },
+            "price": null,
+            "price_half_gram": null,
+            "price_gram": "17.00",
+            "price_eighth": "50.00",
+            "price_quarter": "90.00",
+            "price_half_ounce": "175.00",
+            "price_ounce": "320.00",
+            "createdAt": {
+                "datetime": "2016-03-08 19:38:06",
+                "timezone": "UTC"
+            },
+            "updatedAt": {
+                "datetime": "2016-05-19 16:59:50",
+                "timezone": "UTC"
+            }
+        },
+        {
+            "name": "Green Crack - Flowers",
+            "type": "flower",
+            "item": {
+                "name": "Green Crack - Flowers",
+                "ucpc": "9XVU7XQD9D2WJVPYTUJV00000",
+                "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7XQD9D2WJVPYTUJV00000",
+                "qr": "https://www.cannabisreports.com/flower-reports/qr-code/unknown-producer/unknown-breeder/green-crack/flowers.png",
+                "barcode": "https://www.cannabisreports.com/flower-reports/barcode/unknown-producer/unknown-breeder/green-crack/flowers.png",
+                "url": "https://www.cannabisreports.com/flower-reports/unknown-producer/unknown-breeder/green-crack/flowers",
+                "image": "https://www.cannabisreports.com/images/flowers/f/full_f045a55b881394b92a335b9b004dc9652108d86b.jpg",
+                "producer": {
+                    "name": "Unknown Producer",
+                    "ucpc": "00000000002WJVP0000000000",
+                    "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000002WJVP0000000000"
+                },
+                "type": "flowers",
+                "strain": {
+                    "name": "Green Crack",
+                    "ucpc": "9XVU7XQD9D000000000000000",
+                    "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU7XQD9D000000000000000"
+                },
+                "labTest": false,
+                "thc": false,
+                "cbd": false,
+                "reviews": {
+                    "count": 0,
+                    "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7XQD9D2WJVPYTUJV00000/reviews"
+                },
+                "createdAt": {
+                    "datetime": "2016-02-12 04:55:59",
+                    "timezone": "UTC"
+                },
+                "updatedAt": {
+                    "datetime": "2016-09-08 17:30:03",
+                    "timezone": "UTC"
+                }
+            },
+            "price": null,
+            "price_half_gram": null,
+            "price_gram": "17.00",
+            "price_eighth": "50.00",
+            "price_quarter": "90.00",
+            "price_half_ounce": "175.00",
+            "price_ounce": "320.00",
+            "createdAt": {
+                "datetime": "2016-03-08 19:28:56",
+                "timezone": "UTC"
+            },
+            "updatedAt": {
+                "datetime": "2016-05-19 16:59:42",
+                "timezone": "UTC"
+            }
+        },
+        {
+            "name": "EFF Cancer - Flowers",
+            "type": "flower",
+            "item": {
+                "name": "EFF Cancer - Flowers",
+                "ucpc": "9XVU7FWGCA2WJVP9WWZK00000",
+                "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7FWGCA2WJVP9WWZK00000",
+                "qr": "https://www.cannabisreports.com/flower-reports/qr-code/unknown-producer/unknown-breeder/eff-cancer/flowers.png",
+                "barcode": "https://www.cannabisreports.com/flower-reports/barcode/unknown-producer/unknown-breeder/eff-cancer/flowers.png",
+                "url": "https://www.cannabisreports.com/flower-reports/unknown-producer/unknown-breeder/eff-cancer/flowers",
+                "image": "https://www.cannabisreports.com/images/strains/6/full_65134cdaa0f89c6c32e1e4ad9213dbc37ba9c288.jpg",
+                "producer": {
+                    "name": "Unknown Producer",
+                    "ucpc": "00000000002WJVP0000000000",
+                    "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000002WJVP0000000000"
+                },
+                "type": "flowers",
+                "strain": {
+                    "name": "EFF Cancer",
+                    "ucpc": "9XVU7FWGCA000000000000000",
+                    "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU7FWGCA000000000000000"
+                },
+                "labTest": false,
+                "thc": false,
+                "cbd": false,
+                "reviews": {
+                    "count": 0,
+                    "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7FWGCA2WJVP9WWZK00000/reviews"
+                },
+                "createdAt": {
+                    "datetime": "2016-03-08 19:28:06",
+                    "timezone": "UTC"
+                },
+                "updatedAt": {
+                    "datetime": "2016-09-08 17:30:06",
+                    "timezone": "UTC"
+                }
+            },
+            "price": null,
+            "price_half_gram": null,
+            "price_gram": "16.00",
+            "price_eighth": "45.00",
+            "price_quarter": "85.00",
+            "price_half_ounce": "160.00",
+            "price_ounce": "295.00",
+            "createdAt": {
+                "datetime": "2016-03-08 19:28:06",
+                "timezone": "UTC"
+            },
+            "updatedAt": {
+                "datetime": "2016-05-19 15:00:33",
+                "timezone": "UTC"
+            }
+        },
+        {
+            "name": "Chrystal (crystal) - Flowers",
+            "type": "flower",
+            "item": {
+                "name": "Chrystal (crystal) - Flowers",
+                "ucpc": "6Y7YAEWE3M2WJVP3A6FV00000",
+                "link": "https://www.cannabisreports.com/api/v1.0/flowers/6Y7YAEWE3M2WJVP3A6FV00000",
+                "qr": "https://www.cannabisreports.com/flower-reports/qr-code/unknown-producer/nirvana/chrystal-crystal/flowers.png",
+                "barcode": "https://www.cannabisreports.com/flower-reports/barcode/unknown-producer/nirvana/chrystal-crystal/flowers.png",
+                "url": "https://www.cannabisreports.com/flower-reports/unknown-producer/nirvana/chrystal-crystal/flowers",
+                "image": "https://www.cannabisreports.com/images/strains/no_image.png",
+                "producer": {
+                    "name": "Unknown Producer",
+                    "ucpc": "00000000002WJVP0000000000",
+                    "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000002WJVP0000000000"
+                },
+                "type": "flowers",
+                "strain": {
+                    "name": "Chrystal (crystal)",
+                    "ucpc": "6Y7YAEWE3M000000000000000",
+                    "link": "https://www.cannabisreports.com/api/v1.0/strains/6Y7YAEWE3M000000000000000"
+                },
+                "labTest": false,
+                "thc": false,
+                "cbd": false,
+                "reviews": {
+                    "count": 0,
+                    "link": "https://www.cannabisreports.com/api/v1.0/flowers/6Y7YAEWE3M2WJVP3A6FV00000/reviews"
+                },
+                "createdAt": {
+                    "datetime": "2016-03-08 19:19:26",
+                    "timezone": "UTC"
+                },
+                "updatedAt": {
+                    "datetime": "2016-09-08 17:30:06",
+                    "timezone": "UTC"
+                }
+            },
+            "price": null,
+            "price_half_gram": null,
+            "price_gram": "18.00",
+            "price_eighth": "60.00",
+            "price_quarter": "110.00",
+            "price_half_ounce": "200.00",
+            "price_ounce": "350.00",
+            "createdAt": {
+                "datetime": "2016-03-08 19:19:26",
+                "timezone": "UTC"
+            },
+            "updatedAt": {
+                "datetime": "2016-05-19 15:00:32",
+                "timezone": "UTC"
+            }
+        },
+        {
+            "name": "Cinex - Flowers",
+            "type": "flower",
+            "item": {
+                "name": "Cinex - Flowers",
+                "ucpc": "JJVG7GLUN22WJVP2RQ2Q00000",
+                "link": "https://www.cannabisreports.com/api/v1.0/flowers/JJVG7GLUN22WJVP2RQ2Q00000",
+                "qr": "https://www.cannabisreports.com/flower-reports/qr-code/unknown-producer/cannaman-farms/cinex/flowers.png",
+                "barcode": "https://www.cannabisreports.com/flower-reports/barcode/unknown-producer/cannaman-farms/cinex/flowers.png",
+                "url": "https://www.cannabisreports.com/flower-reports/unknown-producer/cannaman-farms/cinex/flowers",
+                "image": "https://www.cannabisreports.com/images/flowers/e/full_e95f2296564a5b3059e60f684f106d5741c743b4.jpg",
+                "producer": {
+                    "name": "Unknown Producer",
+                    "ucpc": "00000000002WJVP0000000000",
+                    "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000002WJVP0000000000"
+                },
+                "type": "flowers",
+                "strain": {
+                    "name": "Cinex",
+                    "ucpc": "JJVG7GLUN2000000000000000",
+                    "link": "https://www.cannabisreports.com/api/v1.0/strains/JJVG7GLUN2000000000000000"
+                },
+                "labTest": false,
+                "thc": false,
+                "cbd": false,
+                "reviews": {
+                    "count": 0,
+                    "link": "https://www.cannabisreports.com/api/v1.0/flowers/JJVG7GLUN22WJVP2RQ2Q00000/reviews"
+                },
+                "createdAt": {
+                    "datetime": "2016-02-12 04:56:40",
+                    "timezone": "UTC"
+                },
+                "updatedAt": {
+                    "datetime": "2016-09-08 17:30:05",
+                    "timezone": "UTC"
+                }
+            },
+            "price": null,
+            "price_half_gram": null,
+            "price_gram": "14.00",
+            "price_eighth": "38.00",
+            "price_quarter": "72.00",
+            "price_half_ounce": "135.00",
+            "price_ounce": "250.00",
+            "createdAt": {
+                "datetime": "2016-03-08 19:18:26",
+                "timezone": "UTC"
+            },
+            "updatedAt": {
+                "datetime": "2016-05-19 15:00:31",
+                "timezone": "UTC"
+            }
+        },
+        {
+            "name": "Cherry Pie (Cherry Kush) - Flowers",
+            "type": "flower",
+            "item": {
+                "name": "Cherry Pie (Cherry Kush) - Flowers",
+                "ucpc": "9XVU7ZCENQ2WJVPMQMYR00000",
+                "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7ZCENQ2WJVPMQMYR00000",
+                "qr": "https://www.cannabisreports.com/flower-reports/qr-code/unknown-producer/unknown-breeder/cherry-pie/flowers.png",
+                "barcode": "https://www.cannabisreports.com/flower-reports/barcode/unknown-producer/unknown-breeder/cherry-pie/flowers.png",
+                "url": "https://www.cannabisreports.com/flower-reports/unknown-producer/unknown-breeder/cherry-pie/flowers",
+                "image": "https://www.cannabisreports.com/images/flowers/e/full_e1a4601e19c46abff97c187141289bf78664a37b.jpg",
+                "producer": {
+                    "name": "Unknown Producer",
+                    "ucpc": "00000000002WJVP0000000000",
+                    "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000002WJVP0000000000"
+                },
+                "type": "flowers",
+                "strain": {
+                    "name": "Cherry Pie (Cherry Kush)",
+                    "ucpc": "9XVU7ZCENQ000000000000000",
+                    "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU7ZCENQ000000000000000"
+                },
+                "labTest": false,
+                "thc": false,
+                "cbd": false,
+                "reviews": {
+                    "count": 2,
+                    "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7ZCENQ2WJVPMQMYR00000/reviews"
+                },
+                "createdAt": {
+                    "datetime": "2016-02-12 04:55:59",
+                    "timezone": "UTC"
+                },
+                "updatedAt": {
+                    "datetime": "2016-09-08 17:30:03",
+                    "timezone": "UTC"
+                }
+            },
+            "price": null,
+            "price_half_gram": null,
+            "price_gram": "16.00",
+            "price_eighth": "45.00",
+            "price_quarter": "85.00",
+            "price_half_ounce": "160.00",
+            "price_ounce": "295.00",
+            "createdAt": {
+                "datetime": "2016-03-08 19:18:14",
+                "timezone": "UTC"
+            },
+            "updatedAt": {
+                "datetime": "2016-05-19 16:59:29",
+                "timezone": "UTC"
+            }
+        },
+        {
+            "name": "Chiesel (Cheezel) - Flowers",
+            "type": "flower",
+            "item": {
+                "name": "Chiesel (Cheezel) - Flowers",
+                "ucpc": "X3J9U3QX242WJVPUUDT200000",
+                "link": "https://www.cannabisreports.com/api/v1.0/flowers/X3J9U3QX242WJVPUUDT200000",
+                "qr": "https://www.cannabisreports.com/flower-reports/qr-code/unknown-producer/big-buddha-seeds/chiesel-cheezel/flowers.png",
+                "barcode": "https://www.cannabisreports.com/flower-reports/barcode/unknown-producer/big-buddha-seeds/chiesel-cheezel/flowers.png",
+                "url": "https://www.cannabisreports.com/flower-reports/unknown-producer/big-buddha-seeds/chiesel-cheezel/flowers",
+                "image": "https://www.cannabisreports.com/images/strains/f/full_f85c285c2ed1c816079568d43e5edba9be2a8dbf.jpg",
+                "producer": {
+                    "name": "Unknown Producer",
+                    "ucpc": "00000000002WJVP0000000000",
+                    "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000002WJVP0000000000"
+                },
+                "type": "flowers",
+                "strain": {
+                    "name": "Chiesel (Cheezel)",
+                    "ucpc": "X3J9U3QX24000000000000000",
+                    "link": "https://www.cannabisreports.com/api/v1.0/strains/X3J9U3QX24000000000000000"
+                },
+                "labTest": false,
+                "thc": false,
+                "cbd": false,
+                "reviews": {
+                    "count": 0,
+                    "link": "https://www.cannabisreports.com/api/v1.0/flowers/X3J9U3QX242WJVPUUDT200000/reviews"
+                },
+                "createdAt": {
+                    "datetime": "2016-02-12 04:56:00",
+                    "timezone": "UTC"
+                },
+                "updatedAt": {
+                    "datetime": "2016-09-08 17:30:03",
+                    "timezone": "UTC"
+                }
+            },
+            "price": null,
+            "price_half_gram": null,
+            "price_gram": "14.00",
+            "price_eighth": "38.00",
+            "price_quarter": "72.00",
+            "price_half_ounce": "135.00",
+            "price_ounce": "250.00",
+            "createdAt": {
+                "datetime": "2016-03-08 19:17:53",
+                "timezone": "UTC"
+            },
+            "updatedAt": {
+                "datetime": "2016-05-19 15:00:26",
+                "timezone": "UTC"
+            }
+        },
+        {
+            "name": "Blackberry - Flowers",
+            "type": "flower",
+            "item": {
+                "name": "Blackberry - Flowers",
+                "ucpc": "ACZRNHXURW2WJVPCH6NQ00000",
+                "link": "https://www.cannabisreports.com/api/v1.0/flowers/ACZRNHXURW2WJVPCH6NQ00000",
+                "qr": "https://www.cannabisreports.com/flower-reports/qr-code/unknown-producer/nebu/blackberry/flowers.png",
+                "barcode": "https://www.cannabisreports.com/flower-reports/barcode/unknown-producer/nebu/blackberry/flowers.png",
+                "url": "https://www.cannabisreports.com/flower-reports/unknown-producer/nebu/blackberry/flowers",
+                "image": "https://www.cannabisreports.com/images/strains/4/full_4c9078bac2794840b61a0b549db881a7d6295ba0.jpg",
+                "producer": {
+                    "name": "Unknown Producer",
+                    "ucpc": "00000000002WJVP0000000000",
+                    "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000002WJVP0000000000"
+                },
+                "type": "flowers",
+                "strain": {
+                    "name": "Blackberry",
+                    "ucpc": "ACZRNHXURW000000000000000",
+                    "link": "https://www.cannabisreports.com/api/v1.0/strains/ACZRNHXURW000000000000000"
+                },
+                "labTest": false,
+                "thc": false,
+                "cbd": false,
+                "reviews": {
+                    "count": 1,
+                    "link": "https://www.cannabisreports.com/api/v1.0/flowers/ACZRNHXURW2WJVPCH6NQ00000/reviews"
+                },
+                "createdAt": {
+                    "datetime": "2016-02-12 04:56:01",
+                    "timezone": "UTC"
+                },
+                "updatedAt": {
+                    "datetime": "2016-09-08 17:30:03",
+                    "timezone": "UTC"
+                }
+            },
+            "price": null,
+            "price_half_gram": null,
+            "price_gram": "16.00",
+            "price_eighth": "45.00",
+            "price_quarter": "85.00",
+            "price_half_ounce": "160.00",
+            "price_ounce": "295.00",
+            "createdAt": {
+                "datetime": "2016-03-08 19:17:09",
+                "timezone": "UTC"
+            },
+            "updatedAt": {
+                "datetime": "2016-05-19 15:00:23",
+                "timezone": "UTC"
+            }
+        },
+        {
+            "name": "Amnesia Haze - Flowers",
+            "type": "flower",
+            "item": {
+                "name": "Amnesia Haze - Flowers",
+                "ucpc": "L2NZKJADGX2WJVPVTXYQ00000",
+                "link": "https://www.cannabisreports.com/api/v1.0/flowers/L2NZKJADGX2WJVPVTXYQ00000",
+                "qr": "https://www.cannabisreports.com/flower-reports/qr-code/unknown-producer/soma-seeds/amnesia-haze/flowers.png",
+                "barcode": "https://www.cannabisreports.com/flower-reports/barcode/unknown-producer/soma-seeds/amnesia-haze/flowers.png",
+                "url": "https://www.cannabisreports.com/flower-reports/unknown-producer/soma-seeds/amnesia-haze/flowers",
+                "image": "https://www.cannabisreports.com/images/strains/c/full_c76028cef8e8d21e5b94597350d61deccd8539bf.jpg",
+                "producer": {
+                    "name": "Unknown Producer",
+                    "ucpc": "00000000002WJVP0000000000",
+                    "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000002WJVP0000000000"
+                },
+                "type": "flowers",
+                "strain": {
+                    "name": "Amnesia Haze",
+                    "ucpc": "L2NZKJADGX000000000000000",
+                    "link": "https://www.cannabisreports.com/api/v1.0/strains/L2NZKJADGX000000000000000"
+                },
+                "labTest": false,
+                "thc": false,
+                "cbd": false,
+                "reviews": {
+                    "count": 0,
+                    "link": "https://www.cannabisreports.com/api/v1.0/flowers/L2NZKJADGX2WJVPVTXYQ00000/reviews"
+                },
+                "createdAt": {
+                    "datetime": "2016-02-12 04:56:00",
+                    "timezone": "UTC"
+                },
+                "updatedAt": {
+                    "datetime": "2016-09-08 17:30:03",
+                    "timezone": "UTC"
+                }
+            },
+            "price": null,
+            "price_half_gram": null,
+            "price_gram": "17.00",
+            "price_eighth": "50.00",
+            "price_quarter": "90.00",
+            "price_half_ounce": "175.00",
+            "price_ounce": "320.00",
+            "createdAt": {
+                "datetime": "2016-03-08 19:16:34",
+                "timezone": "UTC"
+            },
+            "updatedAt": {
+                "datetime": "2016-05-19 15:00:20",
+                "timezone": "UTC"
+            }
+        },
+        {
+            "name": "Allen Wrench - Flowers",
+            "type": "flower",
+            "item": {
+                "name": "Allen Wrench - Flowers",
+                "ucpc": "9XVU7MYH6K2WJVPXYLKN00000",
+                "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7MYH6K2WJVPXYLKN00000",
+                "qr": "https://www.cannabisreports.com/flower-reports/qr-code/unknown-producer/unknown-breeder/allen-wrench/flowers.png",
+                "barcode": "https://www.cannabisreports.com/flower-reports/barcode/unknown-producer/unknown-breeder/allen-wrench/flowers.png",
+                "url": "https://www.cannabisreports.com/flower-reports/unknown-producer/unknown-breeder/allen-wrench/flowers",
+                "image": "https://www.cannabisreports.com/images/strains/2/full_2017eec6b82ab174d4101744a7918fb664484f55.jpg",
+                "producer": {
+                    "name": "Unknown Producer",
+                    "ucpc": "00000000002WJVP0000000000",
+                    "link": "https://www.cannabisreports.com/api/v1.0/producers/00000000002WJVP0000000000"
+                },
+                "type": "flowers",
+                "strain": {
+                    "name": "Allen Wrench",
+                    "ucpc": "9XVU7MYH6K000000000000000",
+                    "link": "https://www.cannabisreports.com/api/v1.0/strains/9XVU7MYH6K000000000000000"
+                },
+                "labTest": false,
+                "thc": false,
+                "cbd": false,
+                "reviews": {
+                    "count": 0,
+                    "link": "https://www.cannabisreports.com/api/v1.0/flowers/9XVU7MYH6K2WJVPXYLKN00000/reviews"
+                },
+                "createdAt": {
+                    "datetime": "2016-02-12 04:56:21",
+                    "timezone": "UTC"
+                },
+                "updatedAt": {
+                    "datetime": "2016-09-08 17:30:04",
+                    "timezone": "UTC"
+                }
+            },
+            "price": null,
+            "price_half_gram": null,
+            "price_gram": "17.00",
+            "price_eighth": "50.00",
+            "price_quarter": "90.00",
+            "price_half_ounce": "175.00",
+            "price_ounce": "320.00",
+            "createdAt": {
+                "datetime": "2016-03-08 19:16:29",
+                "timezone": "UTC"
+            },
+            "updatedAt": {
+                "datetime": "2016-05-19 15:00:20",
+                "timezone": "UTC"
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "total": 21,
+            "count": 10,
+            "per_page": 10,
+            "current_page": 1,
+            "total_pages": 3,
+            "links": {
+                "next": "https://www.cannabisreports.com/api/v1.0/dispensaries/ca/san-francisco/grass-roots/strains?page=2"
+            }
+        }
+    }
+}

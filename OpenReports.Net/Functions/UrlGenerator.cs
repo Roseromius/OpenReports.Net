@@ -32,14 +32,14 @@ namespace OpenReports.Net
             URL = sb.ToString();
         }
 
-        public void GenerateCannabisReportsUrl(UCPC ucpc, SecondaryObjectType secondaryType)
+        public void GenerateCannabisReportsUrl(UCPC ucpc, SecondaryObjectType secondaryType,bool isPlural = false)
         {
             GenerateCannabisReportsUrl(ucpc);
 
             var sb = new StringBuilder();
             sb.Append(URL);
             sb.Append("/");
-            sb.Append(GetSecondaryObjectTypeString(secondaryType));
+            sb.Append(GetSecondaryObjectTypeString(secondaryType, isPlural));
 
             URL = sb.ToString();
         }
@@ -80,6 +80,33 @@ namespace OpenReports.Net
             sb.Append(longitude);
             sb.Append("/");
             sb.Append(radiusInMiles);
+
+            URL = sb.ToString();
+        }
+
+        public void GenerateCannabisReportsUrl(string state, string city, string slug)
+        {
+            var sb = new StringBuilder();
+            sb.Append(GetBaseUrl());
+            sb.Append("dispensaries");
+            sb.Append("/");
+            sb.Append(state);
+            sb.Append("/");
+            sb.Append(city);
+            sb.Append("/");
+            sb.Append(slug);
+
+            URL = sb.ToString();
+        }
+
+        public void GenerateCannabisReportsUrl(string state, string city, string slug, PrimaryObjectType type)
+        {
+            GenerateCannabisReportsUrl(state, city, slug);
+
+            var sb = new StringBuilder();
+            sb.Append(URL);
+            sb.Append("/");
+            sb.Append(GetPrimaryObjectTypeString(type));
 
             URL = sb.ToString();
         }
@@ -130,7 +157,7 @@ namespace OpenReports.Net
             return sb.ToString();
         }
 
-        private string GetPrimaryObjectTypeString(PrimaryObjectType type, bool isSecondaryType = false)
+        private string GetPrimaryObjectTypeString(PrimaryObjectType type)
         {
             switch (type)
             {
@@ -155,12 +182,20 @@ namespace OpenReports.Net
             }
         }
 
-        private string GetSecondaryObjectTypeString(SecondaryObjectType type)
+        private string GetSecondaryObjectTypeString(SecondaryObjectType type, bool isPlural = false)
         {
             switch (type)
             {
                 case SecondaryObjectType.Strain:
-                    return "strain";
+                    if (isPlural)
+                    {
+                        return "strains";
+                    }
+                    else
+                    {
+                        return "strain";
+                    }
+                    
                 case SecondaryObjectType.Flowers:
                     return "flowers";
                 case SecondaryObjectType.Extract:
